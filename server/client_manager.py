@@ -436,10 +436,10 @@ class ClientManager:
                     length = 0
 
                 if (contains_URL(song)):
-                    checked = False
-                    for line in self.server.music_whitelist:
+                    checked = True
+                    for line in self.server.music_blacklist:
                         if song.startswith(line):
-                            checked = True
+                            checked = False
                     if checked == False:
                         self.send_ooc(
                             "This URL is not allowed."
