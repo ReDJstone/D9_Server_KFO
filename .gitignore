@@ -85,6 +85,9 @@ coverage.xml
 ### VSCode
 .vscode/
 
+### Personal
+GIT_USEFUL/
+
 #why?
 os
 subprocess
