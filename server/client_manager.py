@@ -33,7 +33,8 @@ class ClientManager:
             self.server = server
             self.name = ""
             self.iniswap = ""
-            self.is_mod = False
+            self.is_mod = ''
+            self.is_bot = False
             self.mod_profile_name = None
             self.is_dj = True
             self.can_wtce = True
@@ -1521,8 +1522,10 @@ class ClientManager:
                     if c.hidden_in is not None:
                         name = f":{c.area.evi_list.evidences[c.hidden_in].name}"
                     info += f"📦{name}"
-                if c.is_mod:
-                    info += "[M]"
+                if c.is_bot:
+                    info += "[🤖]"
+                elif c.is_mod:
+                    info += f"[{c.is_mod}]"
                 elif c in area.area_manager.owners:
                     info += "[GM]"
                 elif c in area._owners:
@@ -1777,8 +1780,8 @@ class ClientManager:
             if self.is_mod:
                 raise ClientError("Already logged in.")
             elif len(matches) > 0:
-                self.is_mod = True
                 self.mod_profile_name = matches[0]
+                self.is_mod = self.mod_profile_name
                 return self.mod_profile_name
             else:
                 raise ClientError("Invalid password.")
