@@ -64,7 +64,6 @@ def ooc_cmd_undisemvowel(client, arg):
             client.send_ooc("No targets found.")
 
 
-
 def ooc_cmd_shake(client, arg):
     """
     Scramble the words in a user's IC chat.
