@@ -944,7 +944,6 @@ class ClientManager:
             allowed = (
                 self.is_mod
                 or self in area.owners
-                or self.char_id == -1
                 or area == area.area_manager.default_area()
             )
             if not allowed:
