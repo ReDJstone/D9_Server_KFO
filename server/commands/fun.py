@@ -20,7 +20,8 @@ def ooc_cmd_disemvowel(client, arg):
     Usage: /disemvowel <id>
     """
     if len(arg) == 0:
-        raise ArgumentError("You must specify a target.")
+        database.log_area("disemvowel", client, client.area, target=client)
+        client.disemvowel = True
     try:
         targets = client.server.client_manager.get_targets(
             client, TargetType.ID, int(arg), False
@@ -43,7 +44,8 @@ def ooc_cmd_undisemvowel(client, arg):
     Usage: /undisemvowel <id>
     """
     if len(arg) == 0:
-        raise ArgumentError("You must specify a target.")
+        database.log_area("undisemvowel", client, client.area, target=client)
+        client.disemvowel = False
     try:
         targets = client.server.client_manager.get_targets(
             client, TargetType.ID, int(arg), False
@@ -67,7 +69,8 @@ def ooc_cmd_shake(client, arg):
     Usage: /shake <id>
     """
     if len(arg) == 0:
-        raise ArgumentError("You must specify a target.")
+        database.log_area("shake", client, client.area, target=client)
+        client.shaken = True
     try:
         targets = client.server.client_manager.get_targets(
             client, TargetType.ID, int(arg), False
@@ -90,7 +93,8 @@ def ooc_cmd_unshake(client, arg):
     Usage: /unshake <id>
     """
     if len(arg) == 0:
-        raise ArgumentError("You must specify a target.")
+        database.log_area("unshake", client, client.area, target=client)
+        client.shaken = False
     try:
         targets = client.server.client_manager.get_targets(
             client, TargetType.ID, int(arg), False
