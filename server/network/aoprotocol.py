@@ -51,6 +51,7 @@ class AOProtocol(asyncio.Protocol):
         self.client = None
         self.buffer = ""
         self.ping_timeout = None
+        self.address = ''
 
     def data_received(self, data):
         """Handles any data received from the network.
@@ -105,6 +106,9 @@ class AOProtocol(asyncio.Protocol):
         """
         try:
             self.client = self.server.new_client(transport)
+            ip = transport.get_extra_info('peername')[0]
+            port = transport.get_extra_info('peername')[1]
+            self.address = f'{ip}:{port}'
         except ClientError:
             transport.close()
             return
@@ -191,6 +195,9 @@ class AOProtocol(asyncio.Protocol):
             return
         hdid = self.client.hdid = args[0]
         ipid = self.client.ipid
+        print(f'Handshake: {self.address} - {ipid} / {hdid}')
+        if hdid in ['ReDJBoT', 'D9_BoT']:
+            self.client.is_bot = True
 
         database.add_hdid(ipid, hdid)
         ban = database.find_ban(ipid, hdid)
@@ -774,9 +781,9 @@ class AOProtocol(asyncio.Protocol):
         if len(showname) > 20:
             self.client.send_ooc("Your IC showname is way too long!")
             return
-        if not self.client.is_mod and showname.lstrip().lower().startswith("[m"):
+        if not self.client.is_mod and showname.startswith("[") and "]" in showname:
             self.client.send_ooc(
-                "Nice try! You may not spoof [M] tag in your showname."
+                "Nice try! You may not spoof [MOD] tag in your showname."
             )
             return
         if (nonint_pre == 1 and button in range(1, 4)) or (
@@ -1336,6 +1343,7 @@ class AOProtocol(asyncio.Protocol):
             args[0].startswith(self.server.config["hostname"])
             or args[0].startswith("<dollar>G")
             or args[0].startswith("<dollar>M")
+            or (not self.client.is_mod and args[0].startswith("[") and ']' in args[0])
         ):
             self.client.send_ooc("That name is reserved!")
             return
@@ -1415,8 +1423,10 @@ class AOProtocol(asyncio.Protocol):
             return
 
         prefix = ""
-        if self.client.is_mod:
-            prefix = "[M]"
+        if self.client.is_bot:
+            prefix = "[BOT]"
+        elif self.client.is_mod:
+            prefix = f"[{self.client.is_mod}]"
         elif self.client in self.client.area.area_manager.owners:
             prefix = "[GM]"
         elif self.client in self.client.area._owners:
