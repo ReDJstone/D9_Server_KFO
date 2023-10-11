@@ -13,7 +13,6 @@ __all__ = [
 ]
 
 
-@mod_only()
 def ooc_cmd_disemvowel(client, arg):
     """
     Remove all vowels from a user's IC chat.
@@ -22,22 +21,23 @@ def ooc_cmd_disemvowel(client, arg):
     if len(arg) == 0:
         database.log_area("disemvowel", client, client.area, target=client)
         client.disemvowel = True
-    try:
-        targets = client.server.client_manager.get_targets(
-            client, TargetType.ID, int(arg), False
-        )
-    except Exception:
-        raise ArgumentError("You must specify a target. Use /disemvowel <id>.")
-    if targets:
-        for c in targets:
-            database.log_area("disemvowel", client, client.area, target=c)
-            c.disemvowel = True
-        client.send_ooc(f"Disemvowelled {len(targets)} existing client(s).")
-    else:
-        client.send_ooc("No targets found.")
+        client.send_ooc("You disemvoweled yourself.")
+    elif client.is_mod:
+        try:
+            targets = client.server.client_manager.get_targets(
+                client, TargetType.ID, int(arg), False
+            )
+        except Exception:
+            raise ArgumentError("You must specify a target. Use /disemvowel <id>.")
+        if targets:
+            for c in targets:
+                database.log_area("disemvowel", client, client.area, target=c)
+                c.disemvowel = True
+            client.send_ooc(f"Disemvowelled {len(targets)} existing client(s).")
+        else:
+            client.send_ooc("No targets found.")
 
 
-@mod_only()
 def ooc_cmd_undisemvowel(client, arg):
     """
     Give back the freedom of vowels to a user.
@@ -46,23 +46,25 @@ def ooc_cmd_undisemvowel(client, arg):
     if len(arg) == 0:
         database.log_area("undisemvowel", client, client.area, target=client)
         client.disemvowel = False
-    try:
-        targets = client.server.client_manager.get_targets(
-            client, TargetType.ID, int(arg), False
-        )
-    except Exception:
-        raise ArgumentError(
-            "You must specify a target. Use /undisemvowel <id>.")
-    if targets:
-        for c in targets:
-            database.log_area("undisemvowel", client, client.area, target=c)
-            c.disemvowel = False
-        client.send_ooc(f"Undisemvowelled {len(targets)} existing client(s).")
-    else:
-        client.send_ooc("No targets found.")
+        client.send_ooc("You undisemvoweled yourself.")
+    elif client.is_mod:
+        try:
+            targets = client.server.client_manager.get_targets(
+                client, TargetType.ID, int(arg), False
+            )
+        except Exception:
+            raise ArgumentError(
+                "You must specify a target. Use /undisemvowel <id>.")
+        if targets:
+            for c in targets:
+                database.log_area("undisemvowel", client, client.area, target=c)
+                c.disemvowel = False
+            client.send_ooc(f"Undisemvowelled {len(targets)} existing client(s).")
+        else:
+            client.send_ooc("No targets found.")
 
 
-@mod_only()
+
 def ooc_cmd_shake(client, arg):
     """
     Scramble the words in a user's IC chat.
@@ -71,22 +73,23 @@ def ooc_cmd_shake(client, arg):
     if len(arg) == 0:
         database.log_area("shake", client, client.area, target=client)
         client.shaken = True
-    try:
-        targets = client.server.client_manager.get_targets(
-            client, TargetType.ID, int(arg), False
-        )
-    except Exception:
-        raise ArgumentError("You must specify a target. Use /shake <id>.")
-    if targets:
-        for c in targets:
-            database.log_area("shake", client, client.area, target=c)
-            c.shaken = True
-        client.send_ooc(f"Shook {len(targets)} existing client(s).")
-    else:
-        client.send_ooc("No targets found.")
+        client.send_ooc("You shook yourself.")
+    elif client.is_mod:
+        try:
+            targets = client.server.client_manager.get_targets(
+                client, TargetType.ID, int(arg), False
+            )
+        except Exception:
+            raise ArgumentError("You must specify a target. Use /shake <id>.")
+        if targets:
+            for c in targets:
+                database.log_area("shake", client, client.area, target=c)
+                c.shaken = True
+            client.send_ooc(f"Shook {len(targets)} existing client(s).")
+        else:
+            client.send_ooc("No targets found.")
 
 
-@mod_only()
 def ooc_cmd_unshake(client, arg):
     """
     Give back the freedom of coherent grammar to a user.
@@ -95,19 +98,21 @@ def ooc_cmd_unshake(client, arg):
     if len(arg) == 0:
         database.log_area("unshake", client, client.area, target=client)
         client.shaken = False
-    try:
-        targets = client.server.client_manager.get_targets(
-            client, TargetType.ID, int(arg), False
-        )
-    except Exception:
-        raise ArgumentError("You must specify a target. Use /unshake <id>.")
-    if targets:
-        for c in targets:
-            database.log_area("unshake", client, client.area, target=c)
-            c.shaken = False
-        client.send_ooc(f"Unshook {len(targets)} existing client(s).")
-    else:
-        client.send_ooc("No targets found.")
+        client.send_ooc("You unshook yourself.")
+    elif client.is_mod:
+        try:
+            targets = client.server.client_manager.get_targets(
+                client, TargetType.ID, int(arg), False
+            )
+        except Exception:
+            raise ArgumentError("You must specify a target. Use /unshake <id>.")
+        if targets:
+            for c in targets:
+                database.log_area("unshake", client, client.area, target=c)
+                c.shaken = False
+            client.send_ooc(f"Unshook {len(targets)} existing client(s).")
+        else:
+            client.send_ooc("No targets found.")
 
 
 def ooc_cmd_rainbow(client, arg):
