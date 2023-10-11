@@ -2,6 +2,7 @@
 # Sensitive data
 config/
 config_backups/
+nohup.out
 storage/**/*.json
 storage/**/*.yaml
 storage/db.sqlite*
