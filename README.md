@@ -1,4 +1,4 @@
-test
+
 # KFO-Server
 
 KFO-Server is the official Python-based server for Attorney Online, forked from tsuserver3.
