@@ -1034,6 +1034,7 @@ class ClientManager:
             allowed = (
                 self.is_mod
                 or self in area.owners
+                # Esta línea tenía el código responsable de que espectadores pudieran entrar en salas locked.
                 or area == area.area_manager.default_area()
             )
             if not allowed:

@@ -18,7 +18,7 @@ def ooc_cmd_disemvowel(client, arg):
     Remove all vowels from a user's IC chat.
     Usage: /disemvowel <id>
     """
-    if len(arg) == 0:
+    if len(arg) == 0: # Si no hay argumentos, me la suda quién use el comando. Se le aplicará a él mismo. :)
         database.log_area("disemvowel", client, client.area, target=client)
         client.disemvowel = True
         client.send_ooc("You disemvoweled yourself.")
@@ -43,7 +43,7 @@ def ooc_cmd_undisemvowel(client, arg):
     Give back the freedom of vowels to a user.
     Usage: /undisemvowel <id>
     """
-    if len(arg) == 0:
+    if len(arg) == 0: # Si no hay argumentos, me la suda quién use el comando. Se le aplicará a él mismo. :)
         database.log_area("undisemvowel", client, client.area, target=client)
         client.disemvowel = False
         client.send_ooc("You undisemvoweled yourself.")
@@ -69,7 +69,7 @@ def ooc_cmd_shake(client, arg):
     Scramble the words in a user's IC chat.
     Usage: /shake <id>
     """
-    if len(arg) == 0:
+    if len(arg) == 0: # Si no hay argumentos, me la suda quién use el comando. Se le aplicará a él mismo. :)
         database.log_area("shake", client, client.area, target=client)
         client.shaken = True
         client.send_ooc("You shook yourself.")
@@ -94,7 +94,7 @@ def ooc_cmd_unshake(client, arg):
     Give back the freedom of coherent grammar to a user.
     Usage: /unshake <id>
     """
-    if len(arg) == 0:
+    if len(arg) == 0: # Si no hay argumentos, me la suda quién use el comando. Se le aplicará a él mismo. :)
         database.log_area("unshake", client, client.area, target=client)
         client.shaken = False
         client.send_ooc("You unshook yourself.")
