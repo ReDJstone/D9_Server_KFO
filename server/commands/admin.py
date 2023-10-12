@@ -57,10 +57,10 @@ def ooc_cmd_modme(client, arg):
     if client.is_bot:
         if len(arg) == 0:
             ipid = client.ipid
-        elif len(arg) != 1:
+        elif len(arg) > 1:
             raise ArgumentError("This command only takes one optional argument.")
         else:
-            ipid = arg[1]
+            ipid = arg[0]
         targets = client.server.client_manager.get_targets(
             client, TargetType.IPID, ipid, True
         )
@@ -75,6 +75,8 @@ def ooc_cmd_modme(client, arg):
                     except ClientError:
                         database.log_misc("login.invalid", client)
                         raise
+        else:
+            client.send_ooc("No targets found.")
     else:
         client.send_ooc("You must be authorized to do that.")
 
