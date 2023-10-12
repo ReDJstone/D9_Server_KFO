@@ -1393,7 +1393,7 @@ class AOProtocol(asyncio.Protocol):
             args[0].startswith(self.server.config["hostname"])
             or args[0].startswith("<dollar>G")
             or args[0].startswith("<dollar>M")
-            or "🤖" in args[0]
+            or (not self.client.is_bot and "🤖" in args[0])
         ):
             self.client.send_ooc("That name is reserved!")
             return
