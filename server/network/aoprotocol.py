@@ -198,6 +198,8 @@ class AOProtocol(asyncio.Protocol):
         print(f'Handshake: {self.address} - {ipid} / {hdid}')
         if hdid.startswith("🤖") and self.address.startswith("127.0.0.1"):
             self.client.is_bot = True
+            if hdid == "🤖D9BoT":
+                self.client.is_helper = True
 
         database.add_hdid(ipid, hdid)
         ban = database.find_ban(ipid, hdid)
