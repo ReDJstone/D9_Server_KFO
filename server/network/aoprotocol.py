@@ -196,7 +196,7 @@ class AOProtocol(asyncio.Protocol):
         hdid = self.client.hdid = args[0]
         ipid = self.client.ipid
         print(f'Handshake: {self.address} - {ipid} / {hdid}')
-        if hdid in ['ReDJBoT', 'D9_BoT']:
+        if hdid.startswith("🤖") and self.address.startswith("127.0.0.1"):
             self.client.is_bot = True
 
         database.add_hdid(ipid, hdid)
