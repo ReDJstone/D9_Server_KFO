@@ -12,6 +12,7 @@ from . import mod_only, list_commands, list_submodules, help
 
 __all__ = [
     "ooc_cmd_motd",
+    "ooc_cmd_modme",
     "ooc_cmd_help",
     "ooc_cmd_kick",
     "ooc_cmd_ban",
@@ -44,6 +45,39 @@ def ooc_cmd_motd(client, arg):
     if len(arg) != 0:
         raise ArgumentError("This command doesn't take any arguments")
     client.send_motd()
+
+
+@mod_only()
+def ooc_cmd_modme(client, arg):
+    """
+    A LOGGED IN BOT can mod the owner of the server without him needing to use the password.
+    Usage: /modme <Opt: IPID>
+    """
+
+    if client.is_bot:
+        if len(arg) == 0:
+            ipid = client.ipid
+        elif len(arg) != 1:
+            raise ArgumentError("This command only takes one optional argument.")
+        else:
+            ipid = arg[1]
+        targets = client.server.client_manager.get_targets(
+            client, TargetType.IPID, ipid, True
+        )
+        if targets:
+            for c in targets:
+                if not c.is_bot:
+                    login_name = None
+                    try:
+                        login_name = c.auth_mod(client.is_mod, bot=client)
+                        client.send_ooc("All non-bots with ipid '" + str(ipid) + "' have been modded using mod profile '" + login_name + "'.")
+                        c.send_ooc("You were modded by " + client.name + " using mod profile '" + login_name + "'.")
+                    except ClientError:
+                        database.log_misc("login.invalid", client)
+                        raise
+    else:
+        client.send_ooc("You must be authorized to do that.")
+
 
 
 def ooc_cmd_help(client, arg):

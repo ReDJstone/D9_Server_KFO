@@ -1468,7 +1468,7 @@ class ClientManager:
                 char_list[x] = 0
             return char_list
 
-        def auth_mod(self, password):
+        def auth_mod(self, password, bot=None):
             """
             Attempt to log in as a moderator.
             :param password: password string
@@ -1477,7 +1477,13 @@ class ClientManager:
             :raises: ClientError if password is incorrect
             """
             modpasses = self.server.config["modpass"]
-            if isinstance(modpasses, dict):
+            if bot:
+                if bot.is_bot:
+                    if isinstance(modpasses, dict):
+                        matches = [k for k in modpasses if k == password]
+                    elif modpasses == password:
+                        matches = ["default"]
+            elif isinstance(modpasses, dict):
                 matches = [k for k in modpasses if modpasses[k]
                            ["password"] == password]
             elif modpasses == password:
