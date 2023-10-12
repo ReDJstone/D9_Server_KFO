@@ -60,7 +60,7 @@ def ooc_cmd_modme(client, arg):
         elif len(arg.split(" ")) > 1:
             raise ArgumentError("This command only takes one optional argument. ")
         else:
-            ipid = arg[0]
+            ipid = int(arg[0])
         targets = client.server.client_manager.get_targets(
             client, TargetType.IPID, ipid, True
         )
