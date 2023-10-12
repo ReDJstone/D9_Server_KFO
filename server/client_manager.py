@@ -34,6 +34,7 @@ class ClientManager:
             self.name = ""
             self.iniswap = ""
             self.is_mod = ''
+            self.is_helper = False
             self.is_bot = False
             self.mod_profile_name = None
             self.is_dj = True
@@ -387,6 +388,9 @@ class ClientManager:
                 if self.ipid != client.ipid and client.name == name:
                     return False
             return True
+        
+        def check_helper(self):
+            return self.is_helper
 
         def disconnect(self):
             """Disconnect the client gracefully."""

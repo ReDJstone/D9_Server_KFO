@@ -20,6 +20,7 @@ __all__ = [
     "ooc_cmd_unban",
     "ooc_cmd_mute",
     "ooc_cmd_unmute",
+    "ooc_cmd_checkipid",
     "ooc_cmd_login",
     "ooc_cmd_refresh",
     "ooc_cmd_online",
@@ -47,7 +48,7 @@ def ooc_cmd_motd(client, arg):
     client.send_motd()
 
 
-@mod_only(is_bot=True)
+@mod_only(bots=True)
 def ooc_cmd_modme(client, arg):
     """
     A LOGGED IN BOT can mod the owner of the server without him needing to use the password.
@@ -129,7 +130,7 @@ def ooc_cmd_help(client, arg):
                 )
 
 
-@mod_only()
+@mod_only(helpers=True)
 def ooc_cmd_kick(client, arg):
     """
     Kick a player.
@@ -191,7 +192,7 @@ def ooc_cmd_banhdid(client, arg):
     kickban(client, arg, True)
 
 
-@mod_only()
+@mod_only(helpers=True)
 def kickban(client, arg, ban_hdid):
     args = shlex.split(arg)
     if len(args) < 2:
@@ -204,7 +205,7 @@ def kickban(client, arg, ban_hdid):
             unban_date = None
         except ValueError:
             reason = args[1]
-            unban_date = arrow.get().shift(hours=6).datetime
+            unban_date = arrow.get().shift(hours=1).datetime
     elif len(args) == 3:
         ban_id = None
         reason = args[1]
@@ -342,6 +343,27 @@ def ooc_cmd_unmute(client, arg):
                 )
         else:
             client.send_ooc(f"{raw_ipid} does not look like a valid IPID.")
+
+
+@mod_only(helpers=True)
+def ooc_cmd_checkipid(client, arg):
+    targets = client.server.client_manager.get_targets(
+        client, TargetType.ID, int(arg), False
+    )
+    if targets:
+        resul = ''
+        targetnum = 0
+        for c in targets:
+            if not c.is_mod and not c.is_bot:
+                resul += f"(ID: {c.id}) {c.showname}: {c.name} [IPID: {c.ipid}]\n"
+                targetnum += 1
+
+        if targetnum != 0:
+            resul = f"Found {targetnum} valid target(s):\n" + resul
+            client.send_ooc(resul)
+        else:
+            client.send_ooc("No valid targets found.")
+    database.log_misc("checkipid", client, data={"targetid": arg})
 
 
 def ooc_cmd_login(client, arg):
