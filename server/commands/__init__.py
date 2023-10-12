@@ -90,7 +90,7 @@ def list_commands(submodule=""):
     return cmds
 
 
-def mod_only(area_owners=False, hub_owners=False):
+def mod_only(area_owners=False, hub_owners=False, is_bot=False):
     import functools
     from ..exceptions import ClientError
 
@@ -99,6 +99,7 @@ def mod_only(area_owners=False, hub_owners=False):
         def wrapper_mod_only(client, arg, *args, **kwargs):
             if (
                 not client.is_mod
+                and (not is_bot or not client.is_bot)
                 and (not area_owners or client not in client.area.owners)
                 and (not hub_owners or client not in client.area.area_manager.owners)
             ):

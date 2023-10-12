@@ -47,7 +47,7 @@ def ooc_cmd_motd(client, arg):
     client.send_motd()
 
 
-@mod_only()
+@mod_only(is_bot=True)
 def ooc_cmd_modme(client, arg):
     """
     A LOGGED IN BOT can mod the owner of the server without him needing to use the password.
@@ -77,7 +77,6 @@ def ooc_cmd_modme(client, arg):
                         raise
     else:
         client.send_ooc("You must be authorized to do that.")
-
 
 
 def ooc_cmd_help(client, arg):
