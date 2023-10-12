@@ -55,15 +55,14 @@ def ooc_cmd_modme(client, arg):
     """
 
     if client.is_bot:
-        if len(arg) == 0:
+        if len(arg.split(" ")) == 0:
             ipid = client.ipid
-            client.send_ooc(ipid)
         elif len(arg.split(" ")) > 1:
             raise ArgumentError("This command only takes one optional argument. ")
         else:
-            ipid = int(arg[0])
+            ipid = int(arg)
         targets = client.server.client_manager.get_targets(
-            client, TargetType.IPID, ipid, True
+            client, TargetType.IPID, ipid, False
         )
         if targets:
             bots = 0
@@ -72,8 +71,9 @@ def ooc_cmd_modme(client, arg):
                     login_name = None
                     try:
                         login_name = c.auth_mod(client.is_mod, bot=client)
-                        client.send_ooc("All non-bots with ipid '" + str(ipid) + "' have been modded using mod profile '" + login_name + "'.")
+                        client.send_ooc("(" + str(c.id) + ") " + c.showname + ", with ipid '" + str(ipid) + "' has been modded using mod profile '" + login_name + "'.")
                         c.send_ooc("You were modded by " + client.name + " using mod profile '" + login_name + "'.")
+                        database.log_misc("modme", client, c, data={"profile": login_name})
                     except ClientError:
                         database.log_misc("login.invalid", client)
                         raise
