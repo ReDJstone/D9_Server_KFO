@@ -1424,13 +1424,13 @@ class AOProtocol(asyncio.Protocol):
 
         prefix = ""
         if self.client.is_bot:
-            prefix = "[BOT]"
+            prefix = "[🤖] "
         elif self.client.is_mod:
-            prefix = f"[{self.client.is_mod}]"
+            prefix = f"[{self.client.is_mod}] "
         elif self.client in self.client.area.area_manager.owners:
-            prefix = "[GM]"
+            prefix = "[GM] "
         elif self.client in self.client.area._owners:
-            name = "[CM]"
+            name = "[CM] "
 
         name = f"{prefix}{self.client.name}"
         args[1] = dezalgo(args[1], self.server.zalgo_tolerance)
