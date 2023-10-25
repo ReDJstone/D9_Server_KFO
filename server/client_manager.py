@@ -1799,7 +1799,7 @@ class ClientManager:
                     ],
                 )
 
-    def get_targets(self, client, key, value, local=False, single=False):
+    def get_targets(self, client, key, value, local=False, single=False, localHub=False):
         """
         Find players by a combination of identifying data.
         Possible keys: player ID, OOC name, character name, HDID, IPID,
@@ -1815,7 +1815,11 @@ class ClientManager:
         if local:
             areas = [client.area]
         else:
-            areas = client.area.area_manager.areas
+            if localHub:
+                areas = client.area.area_manager.areas
+            else:
+                areas = self.server.hub_manager.hubs # Debería colar para buscar todos los clientes de todos los hubs cuando llegue el "for". (Yes it does.)
+
         targets = []
         if key == TargetType.ALL:
             for nkey in range(6):
