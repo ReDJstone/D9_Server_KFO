@@ -18,6 +18,7 @@ __all__ = [
     "ooc_cmd_getafk",
     "ooc_cmd_invite",
     "ooc_cmd_uninvite",
+    "ooc_cmd_cm_kick",
     "ooc_cmd_area_kick",
     "ooc_cmd_pos_lock",
     "ooc_cmd_pos_lock_clear",
@@ -293,6 +294,82 @@ def ooc_cmd_uninvite(client, arg):
             raise
     else:
         client.send_ooc("No targets found.")
+
+
+@mod_only(area_owners=True)
+def ooc_cmd_cm_kick(client, arg):
+    """
+    Remove a user from the current area and move them to the Lobby.
+    Usage: /cm_kick <id>
+    """
+    if not arg:
+        raise ClientError(
+            "You must specify a target. Use /cm_kick <id> [destination] [target_pos]"
+        )
+
+    args = shlex.split(arg)
+
+    # Kick only AFKers
+    if not args[0].isdigit():
+        client.send_ooc("This command takes only one argument: ID.")
+    else:
+        # Try to find by char name first
+        targets = client.server.client_manager.get_targets(
+            client, TargetType.CHAR_NAME, args[0]
+        )
+        # If that doesn't work, find by client ID
+        if len(targets) == 0 and args[0].isdigit():
+            targets = client.server.client_manager.get_targets(
+                client, TargetType.ID, int(args[0])
+            )
+        # If that doesn't work, find by OOC Name
+        if len(targets) == 0:
+            targets = client.server.client_manager.get_targets(
+                client, TargetType.OOC_NAME, args[0]
+            )
+
+    if len(targets) == 0:
+        client.send_ooc(
+            f"No targets found by search term '{args[0]}'."
+        )
+        return
+
+    try:
+        for c in targets:
+            # We're a puny CM, we can't do this.
+            if (
+                not client.is_mod
+                and client not in client.area.area_manager.owners
+                and c not in client.area.clients
+            ):
+                raise ArgumentError(
+                    "You can't kick someone from another area as a CM!"
+                )
+            try:
+                area = client.area.area_manager.get_area_by_id(0)
+            except AreaError:
+                raise
+            target_pos = ""
+            old_area = c.area
+            if len(args) >= 3:
+                target_pos = args[2]
+            client.send_ooc(
+                f"Attempting to kick [{c.id}] {c.showname} from [{old_area.id}] {old_area.name} to [{area.id}] {area.name}."
+            )
+            c.set_area(area, target_pos)
+            c.send_ooc(
+                f"You were kicked from [{old_area.id}] {old_area.name} to [{area.id}] {area.name}."
+            )
+            database.log_area(
+                "cm_kick", client, client.area, target=c, message=area.id
+            )
+            client.area.invite_list.discard(c.id)
+    except ValueError:
+        raise ArgumentError("Area ID must be a number.")
+    except AreaError:
+        raise
+    except ClientError:
+        raise
 
 
 @mod_only(area_owners=True)
