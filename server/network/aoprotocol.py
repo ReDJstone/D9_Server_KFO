@@ -923,7 +923,6 @@ class AOProtocol(asyncio.Protocol):
                     self.client.send_ooc("You can't target more than one user!")
                     return
                 text = " ".join(part)
-                button = interjection
             except (ValueError, AreaError):
                 self.client.send_ooc("Invalid targets!")
                 return
