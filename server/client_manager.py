@@ -132,6 +132,8 @@ class ClientManager:
 
             # client status stuff
             self._showname = ""
+            self.last_char = ""
+            self.last_anim = ""
             self.blinded = False
             self._hidden = False
             self.hidden_in = None
