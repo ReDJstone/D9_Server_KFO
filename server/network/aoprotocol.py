@@ -579,6 +579,8 @@ class AOProtocol(asyncio.Protocol):
 
         # Targets for whispering
         whisper_clients = None
+        # Targets for targeting :)
+        target_clients = None
 
         target_area = []
         if self.client.is_mod or self.client in self.client.area.owners:
@@ -882,6 +884,50 @@ class AOProtocol(asyncio.Protocol):
             except (ValueError, AreaError):
                 self.client.send_ooc("Invalid targets!")
                 return
+        elif text.lower().lstrip().startswith("/t"):
+            text = text.lstrip()[2:]
+            part = text.lstrip().split(" ")
+            try:
+                clients = list(dict.fromkeys(part[0].split(",")))
+                try:
+                    [int(c) for c in clients]
+                except ValueError:
+                    clients = []
+
+                if len(clients) == 1:
+                    part = part[1:]
+                    target_clients = [
+                        c for c in self.client.area.clients if str(c.id) in clients and not c == self.client
+                    ]
+                    if target_clients:
+                        if target_clients[0].last_anim:
+                            try:
+                                self.client.area.send_ic(
+                                    client=target_clients[0],
+                                    folder=target_clients[0].last_char,
+                                    anim=target_clients[0].last_anim,
+                                    pos=target_clients[0].pos,
+                                    cid=target_clients[0].char_id,
+                                    flip=target_clients[0].flip,
+                                    showname=target_clients[0]._showname,
+                                )
+                            except:
+                                self.client.send_ooc("An error has occurred...")
+                                return
+                        else:
+                            self.client.send_ooc("You can't target someone that hasn't even talked yet!")
+                    else:
+                        self.client.send_ooc("You need to target someone!")
+                        return
+                else:
+                    self.client.send_ooc("You can't target more than one user!")
+                    return
+                text = " ".join(part)
+                button = interjection
+            except (ValueError, AreaError):
+                self.client.send_ooc("Invalid targets!")
+                return
+
         if contains_URL(
             text.replace("}", "")
             .replace("{", "")
@@ -1191,6 +1237,7 @@ class AOProtocol(asyncio.Protocol):
         # Check whether or not the reserved character for Emote Tags is in the message
         if "¨" in text:
             emote = anim  # We'll use this variable for storing each new emote in our message
+            interjection = button
             messages = text.split("¨")
             separator = " "
 
@@ -1198,11 +1245,9 @@ class AOProtocol(asyncio.Protocol):
             for index, message in enumerate(messages):
                 stripped_message = message.strip()
 
-                # Check if the stripped message is enclosed in parentheses (indicating an emote)
+                # Check if the stripped message is enclosed in parentheses (indicating an emote or interjection)
                 if stripped_message.startswith("<") and stripped_message.endswith(">"):
-                    emote = stripped_message[
-                        1:-1
-                    ]  # Update the emote variable with what we found inside the parentheses
+                    emote = stripped_message[1:-1]  # Update the emote variable with what we found inside the parentheses
                 else:
                     # If we swap emotes after a full stop, we add the separator variable (\p\p\p) to make it less abrupt
                     text = (
@@ -1210,26 +1255,75 @@ class AOProtocol(asyncio.Protocol):
                         if stripped_message.endswith(".")
                         else stripped_message + " "
                     )
-                    emote_value = (
-                        anim if index == 0 else emote
-                    )  # Use 'anim' if it's the first message, otherwise use the emote variable
                     additive_value = (
                         0 if index == 0 else 1
                     )  # Set additive_value to 0 for the first message, 1 for subsequent messages
+                    
+                    # Comentado porque en el cliente habría que desactivar el "Instant Objection" para usar esto.
+                    # if stripped_message.lower().lstrip().startswith("/t"):
+                    #     if stripped_message.lower().lstrip().startswith("/t1"):
+                    #         interjection = 1
+                    #     elif stripped_message.lower().lstrip().startswith("/t2"):
+                    #         interjection = 2
+                    #     elif stripped_message.lower().lstrip().startswith("/t3"):
+                    #         interjection = 3
+                    #     elif stripped_message.lower().lstrip().startswith("/t4"):
+                    #         interjection = 4
+                    #     stripped_message = stripped_message.lstrip()[3:]
+                    #     part = stripped_message.lstrip().split(" ")
+                    #     try:
+                    #         clients = list(dict.fromkeys(part[0].split(",")))
+                    #         try:
+                    #             [int(c) for c in clients]
+                    #         except ValueError:
+                    #             clients = []
+
+                    #         if len(clients) == 1:
+                    #             part = part[1:]
+                    #             target_clients = [
+                    #                 c for c in self.client.area.clients if str(c.id) in clients and not c == self.client
+                    #             ]
+                    #             if target_clients:
+                    #                 if target_clients[0].last_anim:
+                    #                     try:
+                    #                         self.client.area.send_ic(
+                    #                             client=target_clients[0],
+                    #                             folder=target_clients[0].last_char,
+                    #                             anim=target_clients[0].last_anim,
+                    #                             pos=target_clients[0].pos,
+                    #                             cid=target_clients[0].char_id,
+                    #                             flip=target_clients[0].flip,
+                    #                             showname=target_clients[0]._showname,
+                    #                         )
+                    #                     except:
+                    #                         self.client.send_ooc("An error has occurred...")
+                    #                         return
+                    #                 else:
+                    #                     self.client.send_ooc("You can't target someone that hasn't even talked yet!")
+                    #             else:
+                    #                 self.client.send_ooc("You need to target someone!")
+                    #                 return
+                    #         else:
+                    #             self.client.send_ooc("You can't target more than one user!")
+                    #             return
+                    #         stripped_message = " ".join(part)
+                    #     except (ValueError, AreaError):
+                    #         self.client.send_ooc("Invalid targets!")
+                    #         return
 
                     self.client.area.send_ic(
                         self.client,
                         msg_type,
                         pre,
                         folder,
-                        emote_value,
+                        emote,
                         text,
                         pos,
                         sfx,
                         emote_mod,
                         cid,
                         sfx_delay,
-                        button,
+                        interjection,
                         self.client.evi_list[evidence],
                         flip,
                         ding,
@@ -1255,7 +1349,6 @@ class AOProtocol(asyncio.Protocol):
                         third_offset,
                         third_flip,
                     )
-
             return
 
         # Additive only works on same-char messages
@@ -1268,7 +1361,43 @@ class AOProtocol(asyncio.Protocol):
             )
         ):
             additive = 0
+            
+        self.client.last_char = folder
+        self.client.last_anim = anim
 
+        # self.client.send_ooc(
+        #     "{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}".format(
+        #         self.client,
+        #         msg_type,
+        #         pre,
+        #         folder,
+        #         text,
+        #         pos,
+        #         sfx,
+        #         emote_mod,
+        #         cid,
+        #         sfx_delay,
+        #         button,
+        #         self.client.evi_list[evidence],
+        #         flip,
+        #         ding,
+        #         color,
+        #         showname,
+        #         charid_pair,
+        #         other_folder,
+        #         other_emote,
+        #         offset_pair,
+        #         other_offset,
+        #         other_flip,
+        #         nonint_pre,
+        #         sfx_looping,
+        #         screenshake,
+        #         frames_shake,
+        #         frames_realization,
+        #         frames_sfx,
+        #         effect
+        #     )
+        # )
         self.client.area.send_ic(
             client=self.client,
             msg_type=msg_type,
