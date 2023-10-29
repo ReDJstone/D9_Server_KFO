@@ -381,6 +381,7 @@ class AOProtocol(asyncio.Protocol):
         Refer to the implementation for details.
 
         """
+        print(args)
         if not self.client.is_checked:
             return
         if self.client.is_muted:  # Checks to see if the client has been muted by a mod

@@ -70,6 +70,7 @@ class ClientManager:
             self.mod_call_time = 0
             self.ipid = ipid
             self.version = ""
+            self.tables = ""
 
             # Pairing character ID
             self.charid_pair = -1
