@@ -964,6 +964,9 @@ class Area:
         :param client: speaker
         :param *args: arguments
         """
+        if not (client.tables == ""):
+            msg_type = client.tables
+        
         if client in self.afkers:
             client.server.client_manager.toggle_afk(client)
         if client and msg.startswith("**") and len(self.testimony) > 0:

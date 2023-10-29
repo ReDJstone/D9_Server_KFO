@@ -5,6 +5,7 @@ from server.exceptions import ClientError, ArgumentError, AreaError
 from . import mod_only
 
 __all__ = [
+    "ooc_cmd_table",
     "ooc_cmd_g",
     "ooc_cmd_h",
     "ooc_cmd_m",
@@ -27,6 +28,19 @@ def message_areas_cm(client, areas, message):
         a.send_owner_command("CT", name, message)
         database.log_area("chat.cm", client, a, message=message)
 
+
+def ooc_cmd_table(client, arg):
+    if arg:
+        client.tables = ""
+        client.send_ooc("Table now depends on char.ini")
+        return
+    
+    if client.tables == "0":
+        client.tables = "1"
+        client.send_ooc("Table enabled.")
+    else:
+        client.tables = "0"
+        client.send_ooc("Table disabled.")
 
 def ooc_cmd_g(client, arg):
     """

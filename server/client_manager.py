@@ -53,6 +53,7 @@ class ClientManager:
             self.ipid = ipid
             self.version = ""
             self.software = ""
+            self.tables = ""
 
             # Pairing character ID
             self.charid_pair = -1
