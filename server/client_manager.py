@@ -1539,9 +1539,16 @@ class ClientManager:
                     info += "[CM]"
                 info += f"[{c.id}] "
                 if c.showname != c.char_name:
-                    info += f'"{c.showname}" ({c.char_name})'
+                    info += f'"{c.showname}"'
+                    if c.char_name == c.iniswap or c.iniswap == "":
+                        info += f' ({c.char_name})'
+                    else:
+                        info += f' ({c.char_name}:{c.iniswap})'
                 else:
-                    info += f"{c.showname}"
+                    if c.char_name == c.iniswap or c.iniswap == "":
+                        info += f'{c.char_name}'
+                    else:
+                        info += f'{c.char_name}:{c.iniswap}'
                 if c.pos != "":
                     info += f" <{c.pos}>"
                 if self.is_mod:
