@@ -71,6 +71,7 @@ class ClientManager:
             self.ipid = ipid
             self.version = ""
             self.tables = ""
+            self.platform = ""
 
             # Pairing character ID
             self.charid_pair = -1
@@ -1330,7 +1331,7 @@ class ClientManager:
                     info += "[GM]"
                 elif c in area._owners:
                     info += "[CM]"
-                info += f"[{c.id}] "
+                info += f"({c.platform})[{c.id}] "
                 if c.showname != c.char_name:
                     info += f'"{c.showname}"'
                     if c.char_name == c.iniswap or c.iniswap == "":
