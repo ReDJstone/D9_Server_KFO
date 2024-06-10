@@ -1569,11 +1569,6 @@ class ClientManager:
                         info += f' ({c.char_name})'
                     else:
                         info += f' ({c.char_name}:{c.iniswap})'
-                else:
-                    if c.char_name == c.iniswap or c.iniswap == "":
-                        info += f'{c.char_name}'
-                    else:
-                        info += f'{c.char_name}:{c.iniswap}'
                 if c.pos != "":
                     info += f" <{c.pos}>"
                 if self.is_mod:
@@ -1800,7 +1795,6 @@ class ClientManager:
             return char_list
 
         def auth_mod(self, password, bot=None):
-        def auth_mod(self, password, bot=None):
             """
             Attempt to log in as a moderator.
             :param password: password string
@@ -1816,7 +1810,6 @@ class ClientManager:
                     elif modpasses == password:
                         matches = ["default"]
             elif isinstance(modpasses, dict):
-            if bot:
                 if bot.is_bot:
                     if isinstance(modpasses, dict):
                         matches = [k for k in modpasses if k == password]
