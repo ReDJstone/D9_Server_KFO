@@ -36,6 +36,9 @@ class ClientManager:
             self.is_mod = ''
             self.is_helper = False
             self.is_bot = False
+            self.is_mod = ''
+            self.is_helper = False
+            self.is_bot = False
             self.mod_profile_name = None
             self.is_dj = True
             self.can_wtce = True
@@ -119,6 +122,8 @@ class ClientManager:
 
             # client status stuff
             self._showname = ""
+            self.last_char = ""
+            self.last_anim = ""
             self.last_char = ""
             self.last_anim = ""
             self.blinded = False
@@ -382,6 +387,7 @@ class ClientManager:
             :param name: name to check
             """
             printset = set(string.ascii_letters + string.digits + "*~ -_.'," + "🤖")
+            printset = set(string.ascii_letters + string.digits + "*~ -_.'," + "🤖")
             name_ws = name.replace(" ", "")
             if not name_ws or name_ws.isdigit():
                 return False
@@ -392,6 +398,9 @@ class ClientManager:
                 if self.ipid != client.ipid and client.name == name:
                     return False
             return True
+        
+        def check_helper(self):
+            return self.is_helper
         
         def check_helper(self):
             return self.is_helper
@@ -1534,12 +1543,27 @@ class ClientManager:
                     info += "[🤖]"
                 elif c.is_mod:
                     info += f"[{c.is_mod}]"
+                if c.is_bot:
+                    info += "[🤖]"
+                elif c.is_mod:
+                    info += f"[{c.is_mod}]"
                 elif c in area.area_manager.owners:
                     info += "[GM]"
                 elif c in area._owners:
                     info += "[CM]"
                 info += f"({c.platform})[{c.id}] "
+                info += f"({c.platform})[{c.id}] "
                 if c.showname != c.char_name:
+                    info += f'"{c.showname}"'
+                    if c.char_name == c.iniswap or c.iniswap == "":
+                        info += f' ({c.char_name})'
+                    else:
+                        info += f' ({c.char_name}:{c.iniswap})'
+                else:
+                    if c.char_name == c.iniswap or c.iniswap == "":
+                        info += f'{c.char_name}'
+                    else:
+                        info += f'{c.char_name}:{c.iniswap}'
                     info += f'"{c.showname}"'
                     if c.char_name == c.iniswap or c.iniswap == "":
                         info += f' ({c.char_name})'
@@ -1776,6 +1800,7 @@ class ClientManager:
             return char_list
 
         def auth_mod(self, password, bot=None):
+        def auth_mod(self, password, bot=None):
             """
             Attempt to log in as a moderator.
             :param password: password string
@@ -1784,6 +1809,13 @@ class ClientManager:
             :raises: ClientError if password is incorrect
             """
             modpasses = self.server.config["modpass"]
+            if bot:
+                if bot.is_bot:
+                    if isinstance(modpasses, dict):
+                        matches = [k for k in modpasses if k == password]
+                    elif modpasses == password:
+                        matches = ["default"]
+            elif isinstance(modpasses, dict):
             if bot:
                 if bot.is_bot:
                     if isinstance(modpasses, dict):
@@ -1802,6 +1834,7 @@ class ClientManager:
                 raise ClientError("Already logged in.")
             elif len(matches) > 0:
                 self.mod_profile_name = matches[0]
+                self.is_mod = self.mod_profile_name
                 self.is_mod = self.mod_profile_name
                 return self.mod_profile_name
             else:
