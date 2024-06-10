@@ -38,7 +38,6 @@ class ClientManager:
             self.is_bot = False
             self.is_mod = ''
             self.is_helper = False
-            self.is_bot = False
             self.mod_profile_name = None
             self.is_dj = True
             self.can_wtce = True
@@ -1543,10 +1542,6 @@ class ClientManager:
                     info += "[🤖]"
                 elif c.is_mod:
                     info += f"[{c.is_mod}]"
-                if c.is_bot:
-                    info += "[🤖]"
-                elif c.is_mod:
-                    info += f"[{c.is_mod}]"
                 elif c in area.area_manager.owners:
                     info += "[GM]"
                 elif c in area._owners:
@@ -1804,12 +1799,6 @@ class ClientManager:
             """
             modpasses = self.server.config["modpass"]
             if bot:
-                if bot.is_bot:
-                    if isinstance(modpasses, dict):
-                        matches = [k for k in modpasses if k == password]
-                    elif modpasses == password:
-                        matches = ["default"]
-            elif isinstance(modpasses, dict):
                 if bot.is_bot:
                     if isinstance(modpasses, dict):
                         matches = [k for k in modpasses if k == password]
