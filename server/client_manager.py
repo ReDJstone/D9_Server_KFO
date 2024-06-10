@@ -1547,23 +1547,16 @@ class ClientManager:
                 elif c in area._owners:
                     info += "[CM]"
                 info += f"({c.platform})[{c.id}] "
-                info += f"({c.platform})[{c.id}] "
-                if c.showname != c.char_name:
-                    info += f'"{c.showname}"'
-                    if c.char_name == c.iniswap or c.iniswap == "":
-                        info += f' ({c.char_name})'
-                    else:
-                        info += f' ({c.char_name}:{c.iniswap})'
-                else:
+                if c.showname == c.char_name:
                     if c.char_name == c.iniswap or c.iniswap == "":
                         info += f'{c.char_name}'
                     else:
-                        info += f'{c.char_name}:{c.iniswap}'
-                    info += f'"{c.showname}"'
+                        info += f'({c.char_name} => {c.iniswap})'
+                else:
                     if c.char_name == c.iniswap or c.iniswap == "":
-                        info += f' ({c.char_name})'
+                        info += f'{c.showname} ({c.char_name})'
                     else:
-                        info += f' ({c.char_name}:{c.iniswap})'
+                        info += f'{c.showname} ({c.char_name} => {c.iniswap})'
                 if c.pos != "":
                     info += f" <{c.pos}>"
                 if self.is_mod:
