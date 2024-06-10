@@ -248,11 +248,12 @@ class AOProtocol(asyncio.Protocol):
                 self.client.has_multilayer_audio = True
 
         # Send Asset packet if asset_url is defined
-        if self.server.config["https_asset_url"] != "" and args[0] == "webAO":
+        if self.server.config["https_asset_url"] != "":
             self.client.send_command("ASS", self.server.config["https_asset_url"])
+
+        if args[0] == "webAO":
             self.client.platform = "W"
         else:
-            self.client.send_command("ASS", self.server.config["http_asset_url"])
             self.client.platform = "C"
 
     def net_cmd_ch(self, _):
