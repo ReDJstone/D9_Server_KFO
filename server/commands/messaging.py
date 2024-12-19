@@ -30,11 +30,15 @@ def message_areas_cm(client, areas, message):
 
 
 def ooc_cmd_table(client, arg):
+    """
+    Toggle the table in front of the char on or off.
+    Usage /table (optional)<char>
+    """
     if arg:
         client.tables = ""
         client.send_ooc("Table now depends on char.ini")
         return
-    
+
     if client.tables == "0":
         client.tables = "1"
         client.send_ooc("Table enabled.")

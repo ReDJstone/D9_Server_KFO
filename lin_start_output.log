@@ -1,0 +1,2143 @@
+Starting up server...
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting aiohttp==3.9.0
+  Downloading https://www.piwheels.org/simple/aiohttp/aiohttp-3.9.0-cp311-cp311-linux_armv7l.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 1.8 MB/s eta 0:00:00
+Collecting aiosignal==1.3.1
+  Using cached https://www.piwheels.org/simple/aiosignal/aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Collecting arrow==1.3.0
+  Downloading https://www.piwheels.org/simple/arrow/arrow-1.3.0-py3-none-any.whl (66 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.4/66.4 kB 128.7 kB/s eta 0:00:00
+Collecting async-timeout==4.0.3
+  Downloading https://www.piwheels.org/simple/async-timeout/async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Collecting attrs==23.1.0
+  Downloading https://www.piwheels.org/simple/attrs/attrs-23.1.0-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 253.1 kB/s eta 0:00:00
+Collecting certifi==2023.7.22
+  Downloading https://www.piwheels.org/simple/certifi/certifi-2023.7.22-py3-none-any.whl (158 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 158.3/158.3 kB 402.2 kB/s eta 0:00:00
+Collecting charset-normalizer==3.3.2
+  Downloading https://www.piwheels.org/simple/charset-normalizer/charset_normalizer-3.3.2-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.5/48.5 kB 214.8 kB/s eta 0:00:00
+Collecting discord==2.3.2
+  Downloading https://www.piwheels.org/simple/discord/discord-2.3.2-py3-none-any.whl (1.1 kB)
+Collecting discord.py==2.3.2
+  Downloading https://www.piwheels.org/simple/discord-py/discord.py-2.3.2-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 1.9 MB/s eta 0:00:00
+Collecting frozenlist==1.4.0
+  Downloading https://www.piwheels.org/simple/frozenlist/frozenlist-1.4.0-cp311-cp311-linux_armv7l.whl (193 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 193.1/193.1 kB 856.4 kB/s eta 0:00:00
+Collecting geoip2==4.7.0
+  Downloading https://www.piwheels.org/simple/geoip2/geoip2-4.7.0-py2.py3-none-any.whl (26 kB)
+Collecting idna==3.4
+  Using cached https://www.piwheels.org/simple/idna/idna-3.4-py3-none-any.whl (61 kB)
+Collecting maxminddb==2.5.1
+  Downloading https://www.piwheels.org/simple/maxminddb/maxminddb-2.5.1-cp311-cp311-linux_armv7l.whl (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.8/79.8 kB 480.5 kB/s eta 0:00:00
+Collecting multidict==6.0.4
+  Downloading https://www.piwheels.org/simple/multidict/multidict-6.0.4-cp311-cp311-linux_armv7l.whl (115 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 115.8/115.8 kB 571.5 kB/s eta 0:00:00
+Collecting oyaml==1.0
+  Using cached https://www.piwheels.org/simple/oyaml/oyaml-1.0-py2.py3-none-any.whl (3.0 kB)
+Collecting pystun3==1.0.0
+  Downloading https://www.piwheels.org/simple/pystun3/pystun3-1.0.0-py3-none-any.whl (8.8 kB)
+Collecting python-dateutil==2.8.2
+  Using cached https://www.piwheels.org/simple/python-dateutil/python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting PyYAML==6.0.1
+  Downloading https://www.piwheels.org/simple/pyyaml/PyYAML-6.0.1-cp311-cp311-linux_armv7l.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.4/45.4 kB 56.0 kB/s eta 0:00:00
+Collecting requests==2.31.0
+  Downloading https://www.piwheels.org/simple/requests/requests-2.31.0-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 345.7 kB/s eta 0:00:00
+Collecting six==1.16.0
+  Using cached https://www.piwheels.org/simple/six/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting timeparse-plus==1.2.0
+  Using cached https://www.piwheels.org/simple/timeparse-plus/timeparse_plus-1.2.0-py2.py3-none-any.whl (9.0 kB)
+Collecting types-python-dateutil==2.8.19.14
+  Downloading https://www.piwheels.org/simple/types-python-dateutil/types_python_dateutil-2.8.19.14-py3-none-any.whl (9.4 kB)
+Collecting urllib3==2.1.0
+  Downloading https://www.piwheels.org/simple/urllib3/urllib3-2.1.0-py3-none-any.whl (104 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 104.6/104.6 kB 348.2 kB/s eta 0:00:00
+Collecting websockets==12.0
+  Downloading https://www.piwheels.org/simple/websockets/websockets-12.0-cp311-cp311-linux_armv7l.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.1/129.1 kB 629.4 kB/s eta 0:00:00
+Collecting yarl==1.9.2
+  Downloading https://www.piwheels.org/simple/yarl/yarl-1.9.2-cp311-cp311-linux_armv7l.whl (216 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.7/216.7 kB 886.5 kB/s eta 0:00:00
+Collecting setuptools>=68.2.2
+  Downloading https://www.piwheels.org/simple/setuptools/setuptools-75.6.0-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 2.8 MB/s eta 0:00:00
+Installing collected packages: types-python-dateutil, timeparse-plus, pystun3, websockets, urllib3, six, setuptools, PyYAML, multidict, idna, frozenlist, charset-normalizer, certifi, attrs, async-timeout, yarl, requests, python-dateutil, oyaml, maxminddb, aiosignal, arrow, aiohttp, geoip2, discord.py, discord
+  WARNING: The script pystun3 is installed in '/root/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer is installed in '/root/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed PyYAML-6.0.1 aiohttp-3.9.0 aiosignal-1.3.1 arrow-1.3.0 async-timeout-4.0.3 attrs-23.1.0 certifi-2023.7.22 charset-normalizer-3.3.2 discord-2.3.2 discord.py-2.3.2 frozenlist-1.4.0 geoip2-4.7.0 idna-3.4 maxminddb-2.5.1 multidict-6.0.4 oyaml-1.0 pystun3-1.0.0 python-dateutil-2.8.2 requests-2.31.0 setuptools-75.6.0 six-1.16.0 timeparse-plus-1.2.0 types-python-dateutil-2.8.19.14 urllib3-2.1.0 websockets-12.0 yarl-1.9.2
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip available: 22.3.1 -> 24.3.1
+[notice] To update, run: pip install --upgrade pip
+tsuserver3 - an Attorney Online server
+Installing dependencies for you...
+If an import error occurs after the installation, try restarting the server.
+Traceback (most recent call last):
+  File "/home/redpi/Documents/d9_server/updated/start_server.py", line 61, in <module>
+    main()
+  File "/home/redpi/Documents/d9_server/updated/start_server.py", line 51, in main
+    from server.tsuserver import TsuServer3
+  File "/home/redpi/Documents/d9_server/updated/server/tsuserver.py", line 7, in <module>
+    import websockets
+ModuleNotFoundError: No module named 'websockets'
+Server has shut down. Will restart in 2 seconds (use CTRL-C to cancel)
+Starting up server...
+tsuserver3 - an Attorney Online server
+[2024-12-19 21:47:48,364][main][INFO] Starting server
+[2024-12-19 21:47:48,368][asyncio][DEBUG] Using selector: EpollSelector
+[2024-12-19 21:47:48,408][database][INFO] start (None onto None): None
+Server started and is listening on port 27016
+[2024-12-19 21:47:48,430][websockets.server][INFO] server listening on 0.0.0.0:11837
+[2024-12-19 21:47:49,421][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:47:51,132][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:47:51,134][websockets.server][DEBUG] < GET / HTTP/1.1
+[2024-12-19 21:47:51,135][websockets.server][DEBUG] < Host: localhost:11837
+[2024-12-19 21:47:51,135][websockets.server][DEBUG] < Upgrade: websocket
+[2024-12-19 21:47:51,136][websockets.server][DEBUG] < Connection: Upgrade
+[2024-12-19 21:47:51,136][websockets.server][DEBUG] < Sec-WebSocket-Key: ZgaAZzCyZfn0+fUF6QbdyQ==
+[2024-12-19 21:47:51,136][websockets.server][DEBUG] < Sec-WebSocket-Version: 13
+[2024-12-19 21:47:51,137][websockets.server][DEBUG] < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+[2024-12-19 21:47:51,137][websockets.server][DEBUG] < User-Agent: Python/3.11 websockets/12.0
+[2024-12-19 21:47:51,139][websockets.server][DEBUG] > HTTP/1.1 101 Switching Protocols
+[2024-12-19 21:47:51,139][websockets.server][DEBUG] > Upgrade: websocket
+[2024-12-19 21:47:51,140][websockets.server][DEBUG] > Connection: Upgrade
+[2024-12-19 21:47:51,140][websockets.server][DEBUG] > Sec-WebSocket-Accept: 3g9P9Zzou+tlJvILlUMjFOiCT78=
+[2024-12-19 21:47:51,140][websockets.server][DEBUG] > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+[2024-12-19 21:47:51,141][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:47:51 GMT
+[2024-12-19 21:47:51,141][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:47:51,142][websockets.server][INFO] connection open
+[2024-12-19 21:47:51,142][websockets.server][DEBUG] = connection is OPEN
+[2024-12-19 21:47:51,149][websockets.server][DEBUG] > TEXT 'decryptor#NOENCRYPT#%' [21 bytes]
+[2024-12-19 21:47:51,151][websockets.server][DEBUG] < TEXT 'HI#🤖D9BoT#%' [14 bytes]
+[2024-12-19 21:47:51,152][websockets.server][DEBUG] < TEXT 'ID#webAO#webAO#%' [16 bytes]
+[2024-12-19 21:47:51,153][websockets.server][DEBUG] < TEXT 'RD#%' [4 bytes]
+[2024-12-19 21:47:51,154][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+Handshake: 127.0.0.1:37180 - 1 / 🤖D9BoT
+[2024-12-19 21:47:51,158][database][INFO] 1 (HDID: 🤖D9BoT) connected.
+[2024-12-19 21:47:51,169][websockets.server][DEBUG] > TEXT 'ID#0#KFO-Server#3.3.0#%' [23 bytes]
+[2024-12-19 21:47:51,170][websockets.server][DEBUG] > TEXT 'PN#1#150#%' [10 bytes]
+[2024-12-19 21:47:51,171][websockets.server][DEBUG] > TEXT 'FL#yellowtext#customobjections#prezoom#flipping...ed_desk_mods#y_offset#%' [198 bytes]
+[2024-12-19 21:47:51,173][websockets.server][DEBUG] > TEXT 'ASS#https://d9c.redjstone.com/#%' [32 bytes]
+[2024-12-19 21:47:51,175][websockets.server][DEBUG] > TEXT 'CharsCheck#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#...0#0#0#0#0#0#0#0#0#0#0#%' [138 bytes]
+[2024-12-19 21:47:51,176][websockets.server][DEBUG] > TEXT 'HP#1#10#%' [9 bytes]
+[2024-12-19 21:47:51,177][websockets.server][DEBUG] > TEXT 'HP#2#10#%' [9 bytes]
+[2024-12-19 21:47:51,178][websockets.server][DEBUG] > TEXT 'BN#gs4##%' [9 bytes]
+[2024-12-19 21:47:51,179][websockets.server][DEBUG] > TEXT 'LE#%' [4 bytes]
+[2024-12-19 21:47:51,180][websockets.server][DEBUG] > TEXT 'MM#1#%' [6 bytes]
+[2024-12-19 21:47:51,181][websockets.server][DEBUG] > TEXT 'ARUP#0#-1#%' [11 bytes]
+[2024-12-19 21:47:51,182][websockets.server][DEBUG] > TEXT 'ARUP#1#GAMING#%' [15 bytes]
+[2024-12-19 21:47:51,183][websockets.server][DEBUG] > TEXT 'ARUP#2#Double-Click for Hubs#%' [30 bytes]
+[2024-12-19 21:47:51,184][websockets.server][DEBUG] > TEXT 'ARUP#3##%' [9 bytes]
+[2024-12-19 21:47:51,185][websockets.server][DEBUG] > TEXT 'DONE#%' [6 bytes]
+[2024-12-19 21:47:51,185][websockets.server][DEBUG] > TEXT "CT#<dollar>D9#📟MOTD📟\r\nBienvenido al Tribunal ...cord.gg/Bg5Pakn\r\n#1#%" [424 bytes]
+[2024-12-19 21:47:51,187][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#🌍HUB [0] Español INFO🌍\r\nBienven...de la estancia!\r\n#1#%' [121 bytes]
+[2024-12-19 21:47:51,188][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:47:52,135][websockets.server][DEBUG] < TEXT 'CC#0#-1#web#%' [13 bytes]
+[2024-12-19 21:47:52,137][database][INFO] [H0 A0 'Lobby'] Spectator/ (1): event char.change ({"from": "Spectator", "to": "Spectator"})
+[2024-12-19 21:47:52,151][websockets.server][DEBUG] < TEXT 'CC#0#6#web#%' [12 bytes]
+[2024-12-19 21:47:52,151][websockets.server][DEBUG] > TEXT 'PV#0#CID#-1#%' [13 bytes]
+[2024-12-19 21:47:52,153][database][INFO] [H0 A0 'Lobby'] iniswap7/ (1): event char.change ({"from": "Spectator", "to": "iniswap7"})
+[2024-12-19 21:47:52,160][websockets.server][DEBUG] > TEXT 'PV#0#CID#6#%' [12 bytes]
+[2024-12-19 21:47:52,161][websockets.server][DEBUG] > TEXT 'ARUP#0#-1#%' [11 bytes]
+[2024-12-19 21:47:52,522][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:47:52,524][websockets.server][DEBUG] < GET / HTTP/1.1
+[2024-12-19 21:47:52,524][websockets.server][DEBUG] < Host: d9.redjstone.com:11837
+[2024-12-19 21:47:52,525][websockets.server][DEBUG] < User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+[2024-12-19 21:47:52,525][websockets.server][DEBUG] < Accept: */*
+[2024-12-19 21:47:52,525][websockets.server][DEBUG] < Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+[2024-12-19 21:47:52,526][websockets.server][DEBUG] < Accept-Encoding: gzip, deflate
+[2024-12-19 21:47:52,526][websockets.server][DEBUG] < Sec-WebSocket-Version: 13
+[2024-12-19 21:47:52,526][websockets.server][DEBUG] < Origin: http://d9.redjstone.com:11037
+[2024-12-19 21:47:52,527][websockets.server][DEBUG] < Sec-WebSocket-Extensions: permessage-deflate
+[2024-12-19 21:47:52,527][websockets.server][DEBUG] < Sec-WebSocket-Key: NwfVSTtKFlObtgzfx+4pLQ==
+[2024-12-19 21:47:52,527][websockets.server][DEBUG] < Connection: keep-alive, Upgrade
+[2024-12-19 21:47:52,528][websockets.server][DEBUG] < Cookie: theme=default; chatbox=dynamic; sfxVolume=0.5; shoutVolume=0.5; testimonyVolume=0.5; showname=true; ic_chat_name=
+[2024-12-19 21:47:52,528][websockets.server][DEBUG] < Pragma: no-cache
+[2024-12-19 21:47:52,528][websockets.server][DEBUG] < Cache-Control: no-cache
+[2024-12-19 21:47:52,528][websockets.server][DEBUG] < Upgrade: websocket
+[2024-12-19 21:47:52,529][websockets.server][DEBUG] > HTTP/1.1 101 Switching Protocols
+[2024-12-19 21:47:52,530][websockets.server][DEBUG] > Upgrade: websocket
+[2024-12-19 21:47:52,530][websockets.server][DEBUG] > Connection: Upgrade
+[2024-12-19 21:47:52,530][websockets.server][DEBUG] > Sec-WebSocket-Accept: +hrFAQEnRBN9PBxGoY/HrbqpfCA=
+[2024-12-19 21:47:52,531][websockets.server][DEBUG] > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12
+[2024-12-19 21:47:52,531][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:47:52 GMT
+[2024-12-19 21:47:52,531][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:47:52,532][websockets.server][INFO] connection open
+[2024-12-19 21:47:52,532][websockets.server][DEBUG] = connection is OPEN
+[2024-12-19 21:47:52,544][websockets.server][DEBUG] > TEXT 'decryptor#NOENCRYPT#%' [21 bytes]
+[2024-12-19 21:47:52,545][websockets.server][DEBUG] < TEXT 'HI#a7baef0899fc4699662fd062c3b079ce#%' [37 bytes]
+Handshake: 81.43.184.187:59839 - 59545 / a7baef0899fc4699662fd062c3b079ce
+[2024-12-19 21:47:52,555][database][INFO] 59545 (HDID: a7baef0899fc4699662fd062c3b079ce) connected.
+[2024-12-19 21:47:52,563][websockets.server][DEBUG] > TEXT 'ID#1#KFO-Server#3.3.0#%' [23 bytes]
+[2024-12-19 21:47:52,564][websockets.server][DEBUG] > TEXT 'PN#2#150#%' [10 bytes]
+[2024-12-19 21:47:52,567][websockets.server][DEBUG] < TEXT 'ID#webAO#2.8.0#%' [16 bytes]
+[2024-12-19 21:47:52,567][websockets.server][DEBUG] < TEXT 'askchaa#%' [9 bytes]
+[2024-12-19 21:47:52,568][websockets.server][DEBUG] > TEXT 'FL#yellowtext#customobjections#prezoom#flipping...ed_desk_mods#y_offset#%' [198 bytes]
+[2024-12-19 21:47:52,569][websockets.server][DEBUG] > TEXT 'ASS#https://d9c.redjstone.com/#%' [32 bytes]
+[2024-12-19 21:47:52,570][websockets.server][DEBUG] > TEXT 'SI#63#0#0#%' [11 bytes]
+[2024-12-19 21:47:52,572][websockets.server][DEBUG] < TEXT 'RC#%' [4 bytes]
+[2024-12-19 21:47:52,573][websockets.server][DEBUG] > TEXT "SC#iniswap1#iniswap2#iniswap3#iniswap4#iniswap5...asquez#Wellington#Zak#%" [501 bytes]
+[2024-12-19 21:47:52,579][websockets.server][DEBUG] < TEXT 'RM#%' [4 bytes]
+[2024-12-19 21:47:52,585][websockets.server][DEBUG] > TEXT "SM#🌍[0] Español#Lobby#Sala de juegos#Prueba o V...D Gigibyte Remix.opus#%" [61794 bytes]
+[2024-12-19 21:47:52,605][websockets.server][DEBUG] < TEXT 'RD#%' [4 bytes]
+[2024-12-19 21:47:52,607][websockets.server][DEBUG] > TEXT 'CharsCheck#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#0#0...0#0#0#0#0#0#0#0#0#0#0#%' [139 bytes]
+[2024-12-19 21:47:52,608][websockets.server][DEBUG] > TEXT 'HP#1#10#%' [9 bytes]
+[2024-12-19 21:47:52,608][websockets.server][DEBUG] > TEXT 'HP#2#10#%' [9 bytes]
+[2024-12-19 21:47:52,609][websockets.server][DEBUG] > TEXT 'BN#gs4##%' [9 bytes]
+[2024-12-19 21:47:52,609][websockets.server][DEBUG] > TEXT 'LE#%' [4 bytes]
+[2024-12-19 21:47:52,610][websockets.server][DEBUG] > TEXT 'MM#1#%' [6 bytes]
+[2024-12-19 21:47:52,611][websockets.server][DEBUG] > TEXT 'ARUP#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:47:52,611][websockets.server][DEBUG] > TEXT 'ARUP#1#GAMING#########################%' [39 bytes]
+[2024-12-19 21:47:52,612][websockets.server][DEBUG] > TEXT 'ARUP#2#Double-Click for Hubs#########################%' [54 bytes]
+[2024-12-19 21:47:52,612][websockets.server][DEBUG] > TEXT 'ARUP#3##########################%' [33 bytes]
+[2024-12-19 21:47:52,613][websockets.server][DEBUG] > TEXT 'DONE#%' [6 bytes]
+[2024-12-19 21:47:52,613][websockets.server][DEBUG] > TEXT "CT#<dollar>D9#📟MOTD📟\r\nBienvenido al Tribunal ...cord.gg/Bg5Pakn\r\n#1#%" [424 bytes]
+[2024-12-19 21:47:52,614][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#🌍HUB [0] Español INFO🌍\r\nBienven...de la estancia!\r\n#1#%' [121 bytes]
+[2024-12-19 21:47:56,150][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:47:56,152][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:47:57,540][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:47:57,542][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:01,175][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:01,176][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:02,554][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:02,556][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:06,181][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:06,182][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:07,557][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:07,558][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:11,167][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:48:11,168][websockets.server][DEBUG] > PING 51 23 7e e8 [binary, 4 bytes]
+[2024-12-19 21:48:11,170][websockets.server][DEBUG] < PONG 51 23 7e e8 [binary, 4 bytes]
+[2024-12-19 21:48:11,170][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:48:11,182][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:11,183][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:12,551][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:48:12,552][websockets.server][DEBUG] > PING c0 09 bd f5 [binary, 4 bytes]
+[2024-12-19 21:48:12,555][websockets.server][DEBUG] < PONG c0 09 bd f5 [binary, 4 bytes]
+[2024-12-19 21:48:12,556][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:48:12,560][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:12,561][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:16,204][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:16,406][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:17,564][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:17,566][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:21,210][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:21,211][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:22,572][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:22,573][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:26,218][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:26,219][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:27,577][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:27,578][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:31,176][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:48:31,176][websockets.server][DEBUG] > PING 66 13 8a 8a [binary, 4 bytes]
+[2024-12-19 21:48:31,178][websockets.server][DEBUG] < PONG 66 13 8a 8a [binary, 4 bytes]
+[2024-12-19 21:48:31,179][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:48:31,219][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:31,220][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:32,562][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:48:32,563][websockets.server][DEBUG] > PING a9 8b e5 7a [binary, 4 bytes]
+[2024-12-19 21:48:32,566][websockets.server][DEBUG] < PONG a9 8b e5 7a [binary, 4 bytes]
+[2024-12-19 21:48:32,567][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:48:32,586][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:32,586][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:36,226][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:36,228][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:37,597][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:37,598][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:41,229][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:41,231][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:42,609][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:42,610][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:46,239][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:46,241][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:47,615][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:47,617][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:51,184][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:48:51,185][websockets.server][DEBUG] > PING 05 46 d9 06 [binary, 4 bytes]
+[2024-12-19 21:48:51,188][websockets.server][DEBUG] < PONG 05 46 d9 06 [binary, 4 bytes]
+[2024-12-19 21:48:51,189][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:48:51,242][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:51,245][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:51,892][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:48:52,571][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:48:52,572][websockets.server][DEBUG] > PING 'XſL' [text, 4 bytes]
+[2024-12-19 21:48:52,575][websockets.server][DEBUG] < PONG 'XſL' [text, 4 bytes]
+[2024-12-19 21:48:52,575][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:48:52,624][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:52,625][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:56,244][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:48:56,248][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:48:57,758][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:48:57,759][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:01,250][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:01,252][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:02,773][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:02,774][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:06,260][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:06,263][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:07,823][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:07,824][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:11,208][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:49:11,209][websockets.server][DEBUG] > PING 2f 7e 48 f7 [binary, 4 bytes]
+[2024-12-19 21:49:11,210][websockets.server][DEBUG] < PONG 2f 7e 48 f7 [binary, 4 bytes]
+[2024-12-19 21:49:11,211][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:49:11,261][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:11,263][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:12,583][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:49:12,584][websockets.server][DEBUG] > PING 42 9f 96 5c [binary, 4 bytes]
+[2024-12-19 21:49:12,587][websockets.server][DEBUG] < PONG 42 9f 96 5c [binary, 4 bytes]
+[2024-12-19 21:49:12,587][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:49:12,826][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:12,827][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:16,267][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:16,302][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:17,888][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:17,889][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:21,284][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:21,288][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:22,903][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:22,904][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:26,310][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:26,312][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:27,969][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:27,971][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:31,228][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:49:31,228][websockets.server][DEBUG] > PING 4c da 1c be [binary, 4 bytes]
+[2024-12-19 21:49:31,230][websockets.server][DEBUG] < PONG 4c da 1c be [binary, 4 bytes]
+[2024-12-19 21:49:31,230][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:49:31,311][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:31,313][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:32,595][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:49:32,596][websockets.server][DEBUG] > PING 45 3e 4c cb [binary, 4 bytes]
+[2024-12-19 21:49:32,600][websockets.server][DEBUG] < PONG 45 3e 4c cb [binary, 4 bytes]
+[2024-12-19 21:49:32,602][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:49:32,976][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:32,977][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:36,325][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:36,329][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:38,034][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:38,036][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:41,329][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:41,331][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:43,049][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:43,050][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:46,332][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:46,335][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:48,097][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:48,098][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:51,247][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:49:51,247][websockets.server][DEBUG] > PING ad 0d 94 dc [binary, 4 bytes]
+[2024-12-19 21:49:51,249][websockets.server][DEBUG] < PONG ad 0d 94 dc [binary, 4 bytes]
+[2024-12-19 21:49:51,249][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:49:51,334][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:51,336][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:52,607][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:49:52,608][websockets.server][DEBUG] > PING 23 98 08 63 [binary, 4 bytes]
+[2024-12-19 21:49:52,611][websockets.server][DEBUG] < PONG 23 98 08 63 [binary, 4 bytes]
+[2024-12-19 21:49:52,612][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:49:53,109][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:53,110][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:54,476][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:49:56,359][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:49:56,362][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:49:58,175][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:49:58,176][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:01,364][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:01,367][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:03,187][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:03,188][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:06,381][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:06,385][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:08,233][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:08,234][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:11,255][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:50:11,256][websockets.server][DEBUG] > PING 'dП\x03' [text, 4 bytes]
+[2024-12-19 21:50:11,257][websockets.server][DEBUG] < PONG 'dП\x03' [text, 4 bytes]
+[2024-12-19 21:50:11,258][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:50:11,383][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:11,386][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:12,616][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:50:12,616][websockets.server][DEBUG] > PING 87 d3 ce 9e [binary, 4 bytes]
+[2024-12-19 21:50:12,620][websockets.server][DEBUG] < PONG 87 d3 ce 9e [binary, 4 bytes]
+[2024-12-19 21:50:12,621][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:50:13,249][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:13,250][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:16,387][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:16,391][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:18,296][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:18,297][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:21,391][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:21,393][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:23,298][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:23,299][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:26,416][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:26,419][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:28,361][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:28,362][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:30,658][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:50:30,659][websockets.server][DEBUG] ! invalid handshake
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 74, in read_request
+    request_line = await read_line(stream)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 200, in read_line
+    raise EOFError("line without CRLF")
+EOFError: line without CRLF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 279, in read_http_request
+    path, headers = await read_request(self.reader)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 76, in read_request
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 167, in handler
+    await self.handshake(
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 581, in handshake
+    path, request_headers = await self.read_http_request()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 283, in read_http_request
+    raise InvalidMessage("did not receive a valid HTTP request") from exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+[2024-12-19 21:50:30,663][websockets.server][DEBUG] > HTTP/1.1 400 Bad Request
+[2024-12-19 21:50:30,663][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:50:30 GMT
+[2024-12-19 21:50:30,663][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:50:30,664][websockets.server][DEBUG] > Content-Length: 77
+[2024-12-19 21:50:30,664][websockets.server][DEBUG] > Content-Type: text/plain
+[2024-12-19 21:50:30,664][websockets.server][DEBUG] > Connection: close
+[2024-12-19 21:50:30,665][websockets.server][DEBUG] > [body] (77 bytes)
+[2024-12-19 21:50:30,665][websockets.server][INFO] connection rejected (400 Bad Request)
+[2024-12-19 21:50:30,666][websockets.server][DEBUG] x closing TCP connection
+[2024-12-19 21:50:30,666][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:50:30,667][websockets.server][INFO] connection closed
+[2024-12-19 21:50:31,263][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:50:31,263][websockets.server][DEBUG] > PING 0e 2f e2 11 [binary, 4 bytes]
+[2024-12-19 21:50:31,265][websockets.server][DEBUG] < PONG 0e 2f e2 11 [binary, 4 bytes]
+[2024-12-19 21:50:31,265][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:50:31,418][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:31,420][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:32,628][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:50:32,628][websockets.server][DEBUG] > PING fc 88 9e 6b [binary, 4 bytes]
+[2024-12-19 21:50:32,632][websockets.server][DEBUG] < PONG fc 88 9e 6b [binary, 4 bytes]
+[2024-12-19 21:50:32,633][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:50:33,374][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:33,375][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:36,437][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:36,440][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:38,152][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:50:38,154][websockets.server][DEBUG] ! invalid handshake
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 74, in read_request
+    request_line = await read_line(stream)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 200, in read_line
+    raise EOFError("line without CRLF")
+EOFError: line without CRLF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 279, in read_http_request
+    path, headers = await read_request(self.reader)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 76, in read_request
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 167, in handler
+    await self.handshake(
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 581, in handshake
+    path, request_headers = await self.read_http_request()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 283, in read_http_request
+    raise InvalidMessage("did not receive a valid HTTP request") from exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+[2024-12-19 21:50:38,156][websockets.server][DEBUG] > HTTP/1.1 400 Bad Request
+[2024-12-19 21:50:38,157][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:50:38 GMT
+[2024-12-19 21:50:38,158][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:50:38,158][websockets.server][DEBUG] > Content-Length: 77
+[2024-12-19 21:50:38,159][websockets.server][DEBUG] > Content-Type: text/plain
+[2024-12-19 21:50:38,160][websockets.server][DEBUG] > Connection: close
+[2024-12-19 21:50:38,160][websockets.server][DEBUG] > [body] (77 bytes)
+[2024-12-19 21:50:38,161][websockets.server][INFO] connection rejected (400 Bad Request)
+[2024-12-19 21:50:38,161][websockets.server][DEBUG] x closing TCP connection
+[2024-12-19 21:50:38,162][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:50:38,163][websockets.server][INFO] connection closed
+[2024-12-19 21:50:38,420][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:38,421][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:41,441][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:41,443][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:43,422][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:43,423][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:46,467][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:46,470][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:48,483][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:48,484][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:51,280][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:50:51,281][websockets.server][DEBUG] > PING fc 40 50 7b [binary, 4 bytes]
+[2024-12-19 21:50:51,284][websockets.server][DEBUG] < PONG fc 40 50 7b [binary, 4 bytes]
+[2024-12-19 21:50:51,285][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:50:51,470][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:51,472][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:52,640][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:50:52,640][websockets.server][DEBUG] > PING 53 a2 0c dc [binary, 4 bytes]
+[2024-12-19 21:50:52,643][websockets.server][DEBUG] < PONG 53 a2 0c dc [binary, 4 bytes]
+[2024-12-19 21:50:52,644][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:50:53,498][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:53,499][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:53,946][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:50:53,947][websockets.server][DEBUG] ! invalid handshake
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 74, in read_request
+    request_line = await read_line(stream)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 200, in read_line
+    raise EOFError("line without CRLF")
+EOFError: line without CRLF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 279, in read_http_request
+    path, headers = await read_request(self.reader)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 76, in read_request
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 167, in handler
+    await self.handshake(
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 581, in handshake
+    path, request_headers = await self.read_http_request()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 283, in read_http_request
+    raise InvalidMessage("did not receive a valid HTTP request") from exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+[2024-12-19 21:50:53,949][websockets.server][DEBUG] > HTTP/1.1 400 Bad Request
+[2024-12-19 21:50:53,949][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:50:53 GMT
+[2024-12-19 21:50:53,950][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:50:53,950][websockets.server][DEBUG] > Content-Length: 77
+[2024-12-19 21:50:53,950][websockets.server][DEBUG] > Content-Type: text/plain
+[2024-12-19 21:50:53,950][websockets.server][DEBUG] > Connection: close
+[2024-12-19 21:50:53,951][websockets.server][DEBUG] > [body] (77 bytes)
+[2024-12-19 21:50:53,951][websockets.server][INFO] connection rejected (400 Bad Request)
+[2024-12-19 21:50:53,952][websockets.server][DEBUG] x closing TCP connection
+[2024-12-19 21:50:53,952][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:50:53,953][websockets.server][INFO] connection closed
+[2024-12-19 21:50:56,472][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:50:56,473][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:50:57,021][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:50:58,539][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:50:58,540][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:01,498][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:01,499][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:03,548][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:03,549][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:06,500][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:06,501][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:08,588][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:08,590][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:08,685][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:51:08,688][websockets.server][DEBUG] ! invalid handshake
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 74, in read_request
+    request_line = await read_line(stream)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 200, in read_line
+    raise EOFError("line without CRLF")
+EOFError: line without CRLF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 279, in read_http_request
+    path, headers = await read_request(self.reader)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 76, in read_request
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 167, in handler
+    await self.handshake(
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 581, in handshake
+    path, request_headers = await self.read_http_request()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 283, in read_http_request
+    raise InvalidMessage("did not receive a valid HTTP request") from exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+[2024-12-19 21:51:08,693][websockets.server][DEBUG] > HTTP/1.1 400 Bad Request
+[2024-12-19 21:51:08,694][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:51:08 GMT
+[2024-12-19 21:51:08,695][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:51:08,697][websockets.server][DEBUG] > Content-Length: 77
+[2024-12-19 21:51:08,698][websockets.server][DEBUG] > Content-Type: text/plain
+[2024-12-19 21:51:08,699][websockets.server][DEBUG] > Connection: close
+[2024-12-19 21:51:08,700][websockets.server][DEBUG] > [body] (77 bytes)
+[2024-12-19 21:51:08,701][websockets.server][INFO] connection rejected (400 Bad Request)
+[2024-12-19 21:51:08,703][websockets.server][DEBUG] x closing TCP connection
+[2024-12-19 21:51:08,704][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:51:08,706][websockets.server][INFO] connection closed
+[2024-12-19 21:51:11,299][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:51:11,301][websockets.server][DEBUG] > PING ca e5 20 76 [binary, 4 bytes]
+[2024-12-19 21:51:11,302][websockets.server][DEBUG] < PONG ca e5 20 76 [binary, 4 bytes]
+[2024-12-19 21:51:11,303][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:51:11,501][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:11,502][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:12,646][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:51:12,647][websockets.server][DEBUG] > PING 28 a4 c8 9e [binary, 4 bytes]
+[2024-12-19 21:51:12,650][websockets.server][DEBUG] < PONG 28 a4 c8 9e [binary, 4 bytes]
+[2024-12-19 21:51:12,651][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:51:13,597][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:13,598][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:16,514][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:16,532][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:18,648][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:18,649][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:21,525][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:21,559][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:23,659][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:23,661][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:26,288][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:51:26,290][websockets.server][DEBUG] ! invalid handshake
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 74, in read_request
+    request_line = await read_line(stream)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 200, in read_line
+    raise EOFError("line without CRLF")
+EOFError: line without CRLF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 279, in read_http_request
+    path, headers = await read_request(self.reader)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 76, in read_request
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 167, in handler
+    await self.handshake(
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 581, in handshake
+    path, request_headers = await self.read_http_request()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 283, in read_http_request
+    raise InvalidMessage("did not receive a valid HTTP request") from exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+[2024-12-19 21:51:26,292][websockets.server][DEBUG] > HTTP/1.1 400 Bad Request
+[2024-12-19 21:51:26,292][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:51:26 GMT
+[2024-12-19 21:51:26,293][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:51:26,293][websockets.server][DEBUG] > Content-Length: 77
+[2024-12-19 21:51:26,293][websockets.server][DEBUG] > Content-Type: text/plain
+[2024-12-19 21:51:26,294][websockets.server][DEBUG] > Connection: close
+[2024-12-19 21:51:26,294][websockets.server][DEBUG] > [body] (77 bytes)
+[2024-12-19 21:51:26,295][websockets.server][INFO] connection rejected (400 Bad Request)
+[2024-12-19 21:51:26,296][websockets.server][DEBUG] x closing TCP connection
+[2024-12-19 21:51:26,296][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:51:26,297][websockets.server][INFO] connection closed
+[2024-12-19 21:51:26,544][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:26,546][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:28,700][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:28,701][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:31,318][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:51:31,319][websockets.server][DEBUG] > PING 17 bd a6 92 [binary, 4 bytes]
+[2024-12-19 21:51:31,322][websockets.server][DEBUG] < PONG 17 bd a6 92 [binary, 4 bytes]
+[2024-12-19 21:51:31,324][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:51:31,546][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:31,549][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:32,658][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:51:32,658][websockets.server][DEBUG] > PING f7 e5 a8 63 [binary, 4 bytes]
+[2024-12-19 21:51:32,661][websockets.server][DEBUG] < PONG f7 e5 a8 63 [binary, 4 bytes]
+[2024-12-19 21:51:32,662][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:51:33,709][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:33,710][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:36,548][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:36,552][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:38,772][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:38,773][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:41,553][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:41,555][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:43,776][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:43,777][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:46,557][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:46,559][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:48,830][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:48,832][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:51,339][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:51:51,340][websockets.server][DEBUG] > PING 47 87 da b4 [binary, 4 bytes]
+[2024-12-19 21:51:51,341][websockets.server][DEBUG] < PONG 47 87 da b4 [binary, 4 bytes]
+[2024-12-19 21:51:51,342][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:51:51,560][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:51,563][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:51,794][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:51:51,797][websockets.server][DEBUG] ! invalid handshake
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 74, in read_request
+    request_line = await read_line(stream)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 200, in read_line
+    raise EOFError("line without CRLF")
+EOFError: line without CRLF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 279, in read_http_request
+    path, headers = await read_request(self.reader)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 76, in read_request
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 167, in handler
+    await self.handshake(
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 581, in handshake
+    path, request_headers = await self.read_http_request()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 283, in read_http_request
+    raise InvalidMessage("did not receive a valid HTTP request") from exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+[2024-12-19 21:51:51,800][websockets.server][DEBUG] > HTTP/1.1 400 Bad Request
+[2024-12-19 21:51:51,800][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:51:51 GMT
+[2024-12-19 21:51:51,801][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:51:51,801][websockets.server][DEBUG] > Content-Length: 77
+[2024-12-19 21:51:51,802][websockets.server][DEBUG] > Content-Type: text/plain
+[2024-12-19 21:51:51,802][websockets.server][DEBUG] > Connection: close
+[2024-12-19 21:51:51,803][websockets.server][DEBUG] > [body] (77 bytes)
+[2024-12-19 21:51:51,803][websockets.server][INFO] connection rejected (400 Bad Request)
+[2024-12-19 21:51:51,804][websockets.server][DEBUG] x closing TCP connection
+[2024-12-19 21:51:51,804][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:51:51,805][websockets.server][INFO] connection closed
+[2024-12-19 21:51:52,667][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:51:52,668][websockets.server][DEBUG] > PING f9 1b 23 1b [binary, 4 bytes]
+[2024-12-19 21:51:52,671][websockets.server][DEBUG] < PONG f9 1b 23 1b [binary, 4 bytes]
+[2024-12-19 21:51:52,671][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:51:53,840][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:53,842][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:54,777][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:51:54,779][websockets.server][DEBUG] ! invalid handshake
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 74, in read_request
+    request_line = await read_line(stream)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 200, in read_line
+    raise EOFError("line without CRLF")
+EOFError: line without CRLF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 279, in read_http_request
+    path, headers = await read_request(self.reader)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 76, in read_request
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 167, in handler
+    await self.handshake(
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 581, in handshake
+    path, request_headers = await self.read_http_request()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 283, in read_http_request
+    raise InvalidMessage("did not receive a valid HTTP request") from exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+[2024-12-19 21:51:54,780][websockets.server][DEBUG] > HTTP/1.1 400 Bad Request
+[2024-12-19 21:51:54,781][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:51:54 GMT
+[2024-12-19 21:51:54,781][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:51:54,781][websockets.server][DEBUG] > Content-Length: 77
+[2024-12-19 21:51:54,782][websockets.server][DEBUG] > Content-Type: text/plain
+[2024-12-19 21:51:54,782][websockets.server][DEBUG] > Connection: close
+[2024-12-19 21:51:54,782][websockets.server][DEBUG] > [body] (77 bytes)
+[2024-12-19 21:51:54,783][websockets.server][INFO] connection rejected (400 Bad Request)
+[2024-12-19 21:51:54,783][websockets.server][DEBUG] x closing TCP connection
+[2024-12-19 21:51:54,784][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:51:54,784][websockets.server][INFO] connection closed
+[2024-12-19 21:51:56,563][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:51:56,566][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:58,886][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:51:58,887][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:51:59,230][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:51:59,233][websockets.server][DEBUG] ! invalid handshake
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 74, in read_request
+    request_line = await read_line(stream)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 200, in read_line
+    raise EOFError("line without CRLF")
+EOFError: line without CRLF
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 279, in read_http_request
+    path, headers = await read_request(self.reader)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/http.py", line 76, in read_request
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 167, in handler
+    await self.handshake(
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 581, in handshake
+    path, request_headers = await self.read_http_request()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.11/site-packages/websockets/legacy/server.py", line 283, in read_http_request
+    raise InvalidMessage("did not receive a valid HTTP request") from exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+[2024-12-19 21:51:59,238][websockets.server][DEBUG] > HTTP/1.1 400 Bad Request
+[2024-12-19 21:51:59,239][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:51:59 GMT
+[2024-12-19 21:51:59,240][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:51:59,241][websockets.server][DEBUG] > Content-Length: 77
+[2024-12-19 21:51:59,242][websockets.server][DEBUG] > Content-Type: text/plain
+[2024-12-19 21:51:59,242][websockets.server][DEBUG] > Connection: close
+[2024-12-19 21:51:59,243][websockets.server][DEBUG] > [body] (77 bytes)
+[2024-12-19 21:51:59,245][websockets.server][INFO] connection rejected (400 Bad Request)
+[2024-12-19 21:51:59,246][websockets.server][DEBUG] x closing TCP connection
+[2024-12-19 21:51:59,248][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:51:59,249][websockets.server][INFO] connection closed
+[2024-12-19 21:51:59,589][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:52:01,572][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:01,573][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:03,898][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:03,899][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:06,598][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:06,599][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:08,937][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:08,938][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:11,355][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:52:11,356][websockets.server][DEBUG] > PING 06 32 ea 0d [binary, 4 bytes]
+[2024-12-19 21:52:11,357][websockets.server][DEBUG] < PONG 06 32 ea 0d [binary, 4 bytes]
+[2024-12-19 21:52:11,358][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:52:11,600][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:11,601][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:12,678][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:52:12,679][websockets.server][DEBUG] > PING c2 c1 83 3e [binary, 4 bytes]
+[2024-12-19 21:52:12,683][websockets.server][DEBUG] < PONG c2 c1 83 3e [binary, 4 bytes]
+[2024-12-19 21:52:12,683][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:52:13,943][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:13,944][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:16,602][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:16,603][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:18,983][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:18,984][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:21,616][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:21,618][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:23,997][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:23,998][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:26,628][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:26,631][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:29,038][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:52:29,039][websockets.server][DEBUG] < GET / HTTP/1.1
+[2024-12-19 21:52:29,040][websockets.server][DEBUG] < Host: d9.redjstone.com:11837
+[2024-12-19 21:52:29,040][websockets.server][DEBUG] < Connection: Upgrade
+[2024-12-19 21:52:29,040][websockets.server][DEBUG] < Pragma: no-cache
+[2024-12-19 21:52:29,041][websockets.server][DEBUG] < Cache-Control: no-cache
+[2024-12-19 21:52:29,041][websockets.server][DEBUG] < User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0 (Edition std-2)
+[2024-12-19 21:52:29,041][websockets.server][DEBUG] < Upgrade: websocket
+[2024-12-19 21:52:29,042][websockets.server][DEBUG] < Origin: http://web.aceattorneyonline.com
+[2024-12-19 21:52:29,042][websockets.server][DEBUG] < Sec-WebSocket-Version: 13
+[2024-12-19 21:52:29,042][websockets.server][DEBUG] < Accept-Encoding: gzip, deflate
+[2024-12-19 21:52:29,043][websockets.server][DEBUG] < Accept-Language: es-ES,es;q=0.9
+[2024-12-19 21:52:29,043][websockets.server][DEBUG] < Sec-WebSocket-Key: AhAGRx2YU7bED4Kbu3HMag==
+[2024-12-19 21:52:29,043][websockets.server][DEBUG] < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+[2024-12-19 21:52:29,044][websockets.server][DEBUG] > HTTP/1.1 101 Switching Protocols
+[2024-12-19 21:52:29,044][websockets.server][DEBUG] > Upgrade: websocket
+[2024-12-19 21:52:29,045][websockets.server][DEBUG] > Connection: Upgrade
+[2024-12-19 21:52:29,045][websockets.server][DEBUG] > Sec-WebSocket-Accept: xd+qKE8/WJ+NbJngMXAUxYdqTNI=
+[2024-12-19 21:52:29,045][websockets.server][DEBUG] > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+[2024-12-19 21:52:29,045][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:52:29 GMT
+[2024-12-19 21:52:29,046][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:52:29,046][websockets.server][INFO] connection open
+[2024-12-19 21:52:29,047][websockets.server][DEBUG] = connection is OPEN
+[2024-12-19 21:52:29,057][websockets.server][DEBUG] > TEXT 'decryptor#NOENCRYPT#%' [21 bytes]
+[2024-12-19 21:52:29,058][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:29,058][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:29,070][websockets.server][DEBUG] < TEXT 'HI#1128aa769af9b1c4450e88444214c028#%' [37 bytes]
+[2024-12-19 21:52:29,070][websockets.server][DEBUG] < TEXT '' [0 bytes]
+Handshake: 89.7.82.215:50392 - 59546 / 1128aa769af9b1c4450e88444214c028
+[2024-12-19 21:52:29,081][database][INFO] 59546 (HDID: 1128aa769af9b1c4450e88444214c028) connected.
+[2024-12-19 21:52:29,089][websockets.server][DEBUG] > TEXT 'ID#2#KFO-Server#3.3.0#%' [23 bytes]
+[2024-12-19 21:52:29,090][websockets.server][DEBUG] > TEXT 'PN#2#150#%' [10 bytes]
+[2024-12-19 21:52:29,111][websockets.server][DEBUG] < TEXT 'ID#webAO#2.8.0#%' [16 bytes]
+[2024-12-19 21:52:29,112][websockets.server][DEBUG] < TEXT 'askchaa#%' [9 bytes]
+[2024-12-19 21:52:29,113][websockets.server][DEBUG] > TEXT 'FL#yellowtext#customobjections#prezoom#flipping...ed_desk_mods#y_offset#%' [198 bytes]
+[2024-12-19 21:52:29,113][websockets.server][DEBUG] > TEXT 'ASS#https://d9c.redjstone.com/#%' [32 bytes]
+[2024-12-19 21:52:29,114][websockets.server][DEBUG] > TEXT 'SI#63#0#0#%' [11 bytes]
+[2024-12-19 21:52:31,371][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:52:31,372][websockets.server][DEBUG] > PING fa 1b c9 85 [binary, 4 bytes]
+[2024-12-19 21:52:31,373][websockets.server][DEBUG] < PONG fa 1b c9 85 [binary, 4 bytes]
+[2024-12-19 21:52:31,373][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:52:31,631][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:31,632][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:32,690][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:52:32,691][websockets.server][DEBUG] > PING 59 3d 11 aa [binary, 4 bytes]
+[2024-12-19 21:52:32,694][websockets.server][DEBUG] < PONG 59 3d 11 aa [binary, 4 bytes]
+[2024-12-19 21:52:32,695][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:52:34,049][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:34,050][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:34,080][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:34,081][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:36,632][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:36,633][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:39,085][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:39,086][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:39,093][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:39,094][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:41,644][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:41,645][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:44,072][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:44,073][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:44,105][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:44,107][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:46,645][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:46,648][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:49,071][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:52:49,071][websockets.server][DEBUG] > PING 73 0b 88 a2 [binary, 4 bytes]
+[2024-12-19 21:52:49,072][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:49,073][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:49,090][websockets.server][DEBUG] < PONG 73 0b 88 a2 [binary, 4 bytes]
+[2024-12-19 21:52:49,091][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:52:49,107][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:49,108][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:51,386][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:52:51,387][websockets.server][DEBUG] > PING 5d fc c8 63 [binary, 4 bytes]
+[2024-12-19 21:52:51,388][websockets.server][DEBUG] < PONG 5d fc c8 63 [binary, 4 bytes]
+[2024-12-19 21:52:51,388][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:52:51,648][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:51,651][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:52,701][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:52:52,702][websockets.server][DEBUG] > PING 46 b6 90 49 [binary, 4 bytes]
+[2024-12-19 21:52:52,705][websockets.server][DEBUG] < PONG 46 b6 90 49 [binary, 4 bytes]
+[2024-12-19 21:52:52,705][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:52:54,085][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:54,086][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:54,117][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:54,118][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:56,649][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:52:56,651][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:59,084][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:59,085][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:52:59,605][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:52:59,606][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:01,660][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:01,664][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:02,275][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:53:04,073][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:04,074][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:04,621][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:04,622][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:06,677][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:06,681][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:09,074][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:09,075][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:09,092][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:09,093][websockets.server][DEBUG] > PING "\x0c'Bk" [text, 4 bytes]
+[2024-12-19 21:53:09,120][websockets.server][DEBUG] < PONG "\x0c'Bk" [text, 4 bytes]
+[2024-12-19 21:53:09,120][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:09,635][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:09,636][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:11,398][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:11,399][websockets.server][DEBUG] > PING e4 fe cf 30 [binary, 4 bytes]
+[2024-12-19 21:53:11,400][websockets.server][DEBUG] < PONG e4 fe cf 30 [binary, 4 bytes]
+[2024-12-19 21:53:11,401][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:11,679][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:11,681][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:12,712][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:12,713][websockets.server][DEBUG] > PING f0 bf a0 6d [binary, 4 bytes]
+[2024-12-19 21:53:12,717][websockets.server][DEBUG] < PONG f0 bf a0 6d [binary, 4 bytes]
+[2024-12-19 21:53:12,720][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:14,074][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:14,076][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:14,641][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:14,642][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:16,681][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:16,684][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:19,076][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:19,078][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:19,656][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:19,657][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:21,688][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:21,691][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:24,080][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:24,081][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:24,664][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:24,666][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:26,690][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:26,692][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:29,080][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:29,081][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:29,122][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:29,122][websockets.server][DEBUG] > PING 01 aa e4 9d [binary, 4 bytes]
+[2024-12-19 21:53:29,143][websockets.server][DEBUG] < PONG 01 aa e4 9d [binary, 4 bytes]
+[2024-12-19 21:53:29,144][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:29,670][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:29,672][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:31,411][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:31,411][websockets.server][DEBUG] > PING "^B\\'" [text, 4 bytes]
+[2024-12-19 21:53:31,413][websockets.server][DEBUG] < PONG "^B\\'" [text, 4 bytes]
+[2024-12-19 21:53:31,413][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:31,693][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:31,694][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:32,030][websockets.server][DEBUG] < TEXT '2T#P1_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.hadw...ILNt-1gI4eUOgm38RVjPk#%' [1940 bytes]
+[2024-12-19 21:53:32,030][aoprotocol][DEBUG] Unknown incoming message from 59546: 2T#P1_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.hadwYXNza2V5xQU6YvPTnWiqLCCfPpqhE0scp3gj-RtYeIHcwdIl3YQPDXUCR-jATXSSoiNMi3S26bvBzZ7iYRTJLV5W6jU-4mtm2zX3J4gjt95MV_evxalYXU1H3TiW7GVUZP_5cLZXTdsriNNEMnxZBekwf-JGhr8FxkBqHNY4QQRfxdqQGY8-DTAUPaTA2Vip6MmB4EP0-nGxifmU48fA7Fm_L9cSz3I3__2d6H_lUqD4MQLFQdjVp-rMtf2dcACZ5GuTYi7uBQyWsAGKpCehTBZRHT7MaCnIMsTdhSMpuT3A08kYPI7rbVFJUIPe_G4CebyqFyFqriHfNWUoFCkuzGmZfxK18ueDa1TuYIe6PeK8m-0DJvZVDDS8bKB4nsOQEi6uCjZneFGizofYTszkxVzxUWNc8bkUc0uW9EfcLRgNbn2cRRwS5v7VmawFTUhgEmmRXacQBJtbeNB4xVwpH3iJ_MUEj59WqBcaqKrc7d9v3_yI6WMTSAEhRyHzPsdO4A-GVUfKeGTqjU6pi1J3JJE5c9BlZJsGJqVfTKIH8HmL5U4lSCaugGx7doK0sOyTdjzgDQ3CqV-a0htbPKdOi6JNgK9GDQXqPUKi2KYDLmfI49YbIzHgK7JqPkXm1CfqailgFprutdQ8k-QiWLqGLbX9V9fUMU0S_Ho3t6f2j4UQ6DSDoSw1e4aC4v11hpKpE91xaXknLa3aC28YnT6U_L-DOExCyIM8e7Wl3jYvGaJb5h9z0orxAFx1YnGlo3xjMyFpgMxBRS31EeT6JRAgl-AUSfSjd2ifEHtTyR3oDU6WOVU66fFUvyr2tWxXyGnV5VBFleajGrhClgHeX-QiWsdc41cbqUOY60Vp6SLMJrVuUjTEtsE1PnSpjgTKfom3ACM0uSAO5HYsM3OG-qq7Ha0bs8zuJvRrpW08gWzo47GHvx27RtoKe39clIxzxNR_q8o38e08biSBq4nRHAvjylo6dlnSAEfQXwIXKMTcIOGp-OoeXXrO1bZ6E_0JFdHTQcI3zhPjhnP8c9gyX2AEEcPYbr9ubybta0myrddN5w13Ws76Aglpq0kKqxAK0c_JbxIQ5NrzpFFoFSWd3RYm3wI2fmV5PE8ib0x7AEkCTJ719KEGKAQ9GXz6midi0M5ZBRRblj707N2grdHZMeX2UmM8q-FyoNkpbqMuDxlrRKDWlXu2kiU3vf26CZtA4AV9a1FZv5oA0f1fgmdK7a7I41yN2_9y2ifOIkY9wAlluk9ngfg3M5xJmaic9sVSjdf1CWdtR3gOZ0rO5CyvyWDCA7oz-bWeH6pZU5xmNFjuKvJjdyIFPgQuFqoOc1vPeaFknzeRkbXKWDOZ8NaiIn8wOL0BHTmTUOkNjox_y6Q0dcTy4VAabuobciEB6zCElhveQVjI22SKSOKyHfQs3xI0-g-3CNMItd4o3SabMSjKUGDT2D0BcaoWt7RbPQYZ0HL_CrMzWE-OCC3vjHJxFyvaW9TOmUa4Yya7V-h9PpRcDGF_8LaZyRkFTRadU_kak4e_UDQiUHtoe4pFhnznh1LdaC-hrvbKfThUQdfhOSW3VRRRxN9Y7jN84FjuDlZoy2RF3ShUnuvBKUowSZuAekSEyuVBehGrPk49amnDGzoSZjksJeqOX0Uns-Ij3VIh-OFwbc0uflWqZw_wyTlAx3FNsEGu74ScKLkODiGrINvDGTuA9lPHMguHQIt8928k36MdC6ynhbc9ADVJjVmfgD4iE5RtX7bmKx4o58HcB65sg2pi-wjI9ndxKRr57S0bVn7nVF_Co2V4cM5nZJZTqHNoYXJkX2lkzgMxg2-ia3KnYWNmMjE2ZaJwZAA.CbGg3xQcU5s3WhjwxO6UAwILNt-1gI4eUOgm38RVjPk
+[2024-12-19 21:53:32,209][websockets.server][DEBUG] < CLOSE 1001 (going away) [2 bytes]
+[2024-12-19 21:53:32,210][websockets.server][DEBUG] = connection is CLOSING
+[2024-12-19 21:53:32,210][websockets.server][DEBUG] > CLOSE 1001 (going away) [2 bytes]
+[2024-12-19 21:53:32,211][websockets.server][DEBUG] x half-closing TCP connection
+[2024-12-19 21:53:32,211][websockets.server][DEBUG] = connection is CLOSED
+[2024-12-19 21:53:32,212][aoprotocol][DEBUG] 59546 disconnected.
+[2024-12-19 21:53:32,213][websockets.server][INFO] connection closed
+[2024-12-19 21:53:32,490][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 21:53:32,492][websockets.server][DEBUG] < GET / HTTP/1.1
+[2024-12-19 21:53:32,493][websockets.server][DEBUG] < Host: d9.redjstone.com:11837
+[2024-12-19 21:53:32,493][websockets.server][DEBUG] < Connection: Upgrade
+[2024-12-19 21:53:32,494][websockets.server][DEBUG] < Pragma: no-cache
+[2024-12-19 21:53:32,494][websockets.server][DEBUG] < Cache-Control: no-cache
+[2024-12-19 21:53:32,495][websockets.server][DEBUG] < User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0 (Edition std-2)
+[2024-12-19 21:53:32,495][websockets.server][DEBUG] < Upgrade: websocket
+[2024-12-19 21:53:32,495][websockets.server][DEBUG] < Origin: http://web.aceattorneyonline.com
+[2024-12-19 21:53:32,496][websockets.server][DEBUG] < Sec-WebSocket-Version: 13
+[2024-12-19 21:53:32,496][websockets.server][DEBUG] < Accept-Encoding: gzip, deflate
+[2024-12-19 21:53:32,497][websockets.server][DEBUG] < Accept-Language: es-ES,es;q=0.9
+[2024-12-19 21:53:32,497][websockets.server][DEBUG] < Sec-WebSocket-Key: Q9GaHhGPCAkg2A8S7EMAOA==
+[2024-12-19 21:53:32,497][websockets.server][DEBUG] < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+[2024-12-19 21:53:32,498][websockets.server][DEBUG] > HTTP/1.1 101 Switching Protocols
+[2024-12-19 21:53:32,498][websockets.server][DEBUG] > Upgrade: websocket
+[2024-12-19 21:53:32,499][websockets.server][DEBUG] > Connection: Upgrade
+[2024-12-19 21:53:32,499][websockets.server][DEBUG] > Sec-WebSocket-Accept: cgPTI6tdz/aNYVOe4yPXTFeMEUc=
+[2024-12-19 21:53:32,500][websockets.server][DEBUG] > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+[2024-12-19 21:53:32,500][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 21:53:32 GMT
+[2024-12-19 21:53:32,501][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 21:53:32,501][websockets.server][INFO] connection open
+[2024-12-19 21:53:32,502][websockets.server][DEBUG] = connection is OPEN
+[2024-12-19 21:53:32,503][websockets.server][DEBUG] > TEXT 'decryptor#NOENCRYPT#%' [21 bytes]
+[2024-12-19 21:53:32,522][websockets.server][DEBUG] < TEXT 'HI#1128aa769af9b1c4450e88444214c028#%' [37 bytes]
+Handshake: 89.7.82.215:50459 - 59546 / 1128aa769af9b1c4450e88444214c028
+[2024-12-19 21:53:32,523][database][INFO] 59546 (HDID: 1128aa769af9b1c4450e88444214c028) connected.
+[2024-12-19 21:53:32,532][websockets.server][DEBUG] > TEXT 'ID#2#KFO-Server#3.3.0#%' [23 bytes]
+[2024-12-19 21:53:32,533][websockets.server][DEBUG] > TEXT 'PN#2#150#%' [10 bytes]
+[2024-12-19 21:53:32,553][websockets.server][DEBUG] < TEXT 'ID#webAO#2.8.0#%' [16 bytes]
+[2024-12-19 21:53:32,554][websockets.server][DEBUG] < TEXT 'askchaa#%' [9 bytes]
+[2024-12-19 21:53:32,555][websockets.server][DEBUG] > TEXT 'FL#yellowtext#customobjections#prezoom#flipping...ed_desk_mods#y_offset#%' [198 bytes]
+[2024-12-19 21:53:32,556][websockets.server][DEBUG] > TEXT 'ASS#https://d9c.redjstone.com/#%' [32 bytes]
+[2024-12-19 21:53:32,557][websockets.server][DEBUG] > TEXT 'SI#63#0#0#%' [11 bytes]
+[2024-12-19 21:53:32,580][websockets.server][DEBUG] < TEXT 'RC#%' [4 bytes]
+[2024-12-19 21:53:32,581][websockets.server][DEBUG] > TEXT "SC#iniswap1#iniswap2#iniswap3#iniswap4#iniswap5...asquez#Wellington#Zak#%" [501 bytes]
+[2024-12-19 21:53:32,603][websockets.server][DEBUG] < TEXT 'RM#%' [4 bytes]
+[2024-12-19 21:53:32,609][websockets.server][DEBUG] > TEXT "SM#🌍[0] Español#Lobby#Sala de juegos#Prueba o V...D Gigibyte Remix.opus#%" [61794 bytes]
+[2024-12-19 21:53:32,713][websockets.server][DEBUG] < TEXT 'RD#%' [4 bytes]
+[2024-12-19 21:53:32,715][websockets.server][DEBUG] > TEXT 'CharsCheck#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#0#0...0#0#0#0#0#0#0#0#0#0#0#%' [139 bytes]
+[2024-12-19 21:53:32,716][websockets.server][DEBUG] > TEXT 'HP#1#10#%' [9 bytes]
+[2024-12-19 21:53:32,717][websockets.server][DEBUG] > TEXT 'HP#2#10#%' [9 bytes]
+[2024-12-19 21:53:32,717][websockets.server][DEBUG] > TEXT 'BN#gs4##%' [9 bytes]
+[2024-12-19 21:53:32,718][websockets.server][DEBUG] > TEXT 'LE#%' [4 bytes]
+[2024-12-19 21:53:32,719][websockets.server][DEBUG] > TEXT 'MM#1#%' [6 bytes]
+[2024-12-19 21:53:32,720][websockets.server][DEBUG] > TEXT 'ARUP#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:53:32,721][websockets.server][DEBUG] > TEXT 'ARUP#1#GAMING#########################%' [39 bytes]
+[2024-12-19 21:53:32,722][websockets.server][DEBUG] > TEXT 'ARUP#2#Double-Click for Hubs#########################%' [54 bytes]
+[2024-12-19 21:53:32,722][websockets.server][DEBUG] > TEXT 'ARUP#3##########################%' [33 bytes]
+[2024-12-19 21:53:32,723][websockets.server][DEBUG] > TEXT 'DONE#%' [6 bytes]
+[2024-12-19 21:53:32,724][websockets.server][DEBUG] > TEXT "CT#<dollar>D9#📟MOTD📟\r\nBienvenido al Tribunal ...cord.gg/Bg5Pakn\r\n#1#%" [424 bytes]
+[2024-12-19 21:53:32,725][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#🌍HUB [0] Español INFO🌍\r\nBienven...de la estancia!\r\n#1#%' [121 bytes]
+[2024-12-19 21:53:32,726][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:32,727][websockets.server][DEBUG] > PING 2a 83 38 f1 [binary, 4 bytes]
+[2024-12-19 21:53:32,730][websockets.server][DEBUG] < PONG 2a 83 38 f1 [binary, 4 bytes]
+[2024-12-19 21:53:32,731][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:34,681][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:34,682][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:36,694][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:36,695][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:37,528][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:37,533][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:39,692][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:39,693][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:41,702][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:41,705][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:42,540][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:42,543][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:44,707][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:44,708][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:46,713][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:46,714][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:47,524][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:47,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:49,713][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:49,714][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:50,980][websockets.server][DEBUG] < TEXT 'CC#2#44#web#%' [13 bytes]
+[2024-12-19 21:53:50,982][database][INFO] [H0 A0 'Lobby'] Layton/ (59546): event char.change ({"from": "Spectator", "to": "Layton"})
+[2024-12-19 21:53:50,990][websockets.server][DEBUG] > TEXT 'PV#2#CID#44#%' [13 bytes]
+[2024-12-19 21:53:50,991][websockets.server][DEBUG] > TEXT 'ARUP#0#-1#%' [11 bytes]
+[2024-12-19 21:53:50,992][websockets.server][DEBUG] > TEXT 'ARUP#0#2#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:53:50,993][websockets.server][DEBUG] > TEXT 'ARUP#0#2#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#...0#0#0#0#0#0#0#0#0#0#0#%' [106 bytes]
+[2024-12-19 21:53:51,416][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:51,416][websockets.server][DEBUG] > PING cf 41 c7 c2 [binary, 4 bytes]
+[2024-12-19 21:53:51,418][websockets.server][DEBUG] < PONG cf 41 c7 c2 [binary, 4 bytes]
+[2024-12-19 21:53:51,419][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:51,716][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:51,717][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:52,508][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:52,509][websockets.server][DEBUG] > PING d0 38 ce a3 [binary, 4 bytes]
+[2024-12-19 21:53:52,527][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:53:52,528][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:52,530][websockets.server][DEBUG] < PONG d0 38 ce a3 [binary, 4 bytes]
+[2024-12-19 21:53:52,531][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:52,734][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:53:52,734][websockets.server][DEBUG] > PING 56 79 4b b7 [binary, 4 bytes]
+[2024-12-19 21:53:52,737][websockets.server][DEBUG] < PONG 56 79 4b b7 [binary, 4 bytes]
+[2024-12-19 21:53:52,738][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:53:53,794][websockets.server][DEBUG] < TEXT 'MC#Tribunal 3#44#%' [18 bytes]
+[2024-12-19 21:53:53,796][database][INFO] [H0 A0 'Lobby'] Layton/ (59546): event area.leave (None)
+[2024-12-19 21:53:53,804][database][INFO] [H0 A5 'Tribunal 3'] Layton/ (59546): event area.join (None)
+[2024-12-19 21:53:53,815][websockets.server][DEBUG] > TEXT 'ARUP#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:53:53,816][websockets.server][DEBUG] > TEXT 'ARUP#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:53:53,817][websockets.server][DEBUG] > TEXT 'TI#0#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,817][websockets.server][DEBUG] > TEXT 'TI#0#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,818][websockets.server][DEBUG] > TEXT 'TI#1#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,819][websockets.server][DEBUG] > TEXT 'TI#1#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,819][websockets.server][DEBUG] > TEXT 'TI#2#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,820][websockets.server][DEBUG] > TEXT 'TI#2#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,820][websockets.server][DEBUG] > TEXT 'TI#3#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,821][websockets.server][DEBUG] > TEXT 'TI#3#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,821][websockets.server][DEBUG] > TEXT 'TI#4#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,822][websockets.server][DEBUG] > TEXT 'TI#4#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,822][websockets.server][DEBUG] > TEXT 'TI#5#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,823][websockets.server][DEBUG] > TEXT 'TI#5#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,823][websockets.server][DEBUG] > TEXT 'TI#6#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,824][websockets.server][DEBUG] > TEXT 'TI#6#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,824][websockets.server][DEBUG] > TEXT 'TI#7#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,825][websockets.server][DEBUG] > TEXT 'TI#7#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,825][websockets.server][DEBUG] > TEXT 'TI#8#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,826][websockets.server][DEBUG] > TEXT 'TI#8#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,826][websockets.server][DEBUG] > TEXT 'TI#9#1#0#%' [10 bytes]
+[2024-12-19 21:53:53,827][websockets.server][DEBUG] > TEXT 'TI#9#3#0#%' [10 bytes]
+[2024-12-19 21:53:53,827][websockets.server][DEBUG] > TEXT 'TI#10#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,828][websockets.server][DEBUG] > TEXT 'TI#10#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,828][websockets.server][DEBUG] > TEXT 'TI#11#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,829][websockets.server][DEBUG] > TEXT 'TI#11#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,829][websockets.server][DEBUG] > TEXT 'TI#12#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,830][websockets.server][DEBUG] > TEXT 'TI#12#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,830][websockets.server][DEBUG] > TEXT 'TI#13#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,831][websockets.server][DEBUG] > TEXT 'TI#13#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,831][websockets.server][DEBUG] > TEXT 'TI#14#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,832][websockets.server][DEBUG] > TEXT 'TI#14#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,832][websockets.server][DEBUG] > TEXT 'TI#15#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,832][websockets.server][DEBUG] > TEXT 'TI#15#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,833][websockets.server][DEBUG] > TEXT 'TI#16#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,833][websockets.server][DEBUG] > TEXT 'TI#16#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,834][websockets.server][DEBUG] > TEXT 'TI#17#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,834][websockets.server][DEBUG] > TEXT 'TI#17#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,835][websockets.server][DEBUG] > TEXT 'TI#18#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,835][websockets.server][DEBUG] > TEXT 'TI#18#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,836][websockets.server][DEBUG] > TEXT 'TI#19#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,836][websockets.server][DEBUG] > TEXT 'TI#19#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,837][websockets.server][DEBUG] > TEXT 'TI#20#1#0#%' [11 bytes]
+[2024-12-19 21:53:53,837][websockets.server][DEBUG] > TEXT 'TI#20#3#0#%' [11 bytes]
+[2024-12-19 21:53:53,838][websockets.server][DEBUG] > TEXT 'ARUP#0#2#1#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:53:53,838][websockets.server][DEBUG] > TEXT 'ARUP#0#2#1#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#...0#0#0#0#0#0#0#0#0#0#0#%' [106 bytes]
+[2024-12-19 21:53:53,839][websockets.server][DEBUG] > TEXT 'ARUP#0#2#1#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#...0#0#0#0#0#0#0#0#0#0#0#%' [106 bytes]
+[2024-12-19 21:53:53,840][websockets.server][DEBUG] > TEXT 'HP#1#10#%' [9 bytes]
+[2024-12-19 21:53:53,840][websockets.server][DEBUG] > TEXT 'HP#2#10#%' [9 bytes]
+[2024-12-19 21:53:53,841][websockets.server][DEBUG] > TEXT 'BN#gs4##%' [9 bytes]
+[2024-12-19 21:53:53,842][websockets.server][DEBUG] > TEXT 'LE#%' [4 bytes]
+[2024-12-19 21:53:53,842][websockets.server][DEBUG] > TEXT 'JD#-1#%' [7 bytes]
+[2024-12-19 21:53:53,843][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#🚶Changed to area: [5] Tribunal 3 ...\xa0◽ (W)[2] Layton#1#%' [112 bytes]
+[2024-12-19 21:53:53,843][websockets.server][DEBUG] > TEXT 'CU#1#2#%' [8 bytes]
+[2024-12-19 21:53:53,844][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#[2] Layton leaves to [5] Tribunal 3.#1#%' [54 bytes]
+[2024-12-19 21:53:53,845][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#[2] Layton leaves to [5] Tribunal 3.#1#%' [54 bytes]
+[2024-12-19 21:53:53,845][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#[2] Layton enters from [0] Lobby.#1#%' [51 bytes]
+[2024-12-19 21:53:54,722][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:54,723][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:55,846][websockets.server][DEBUG] < TEXT 'MC#Lobby#44#%' [13 bytes]
+[2024-12-19 21:53:55,849][database][INFO] [H0 A5 'Tribunal 3'] Layton/ (59546): event area.leave (None)
+[2024-12-19 21:53:55,861][database][INFO] [H0 A0 'Lobby'] Layton/ (59546): event area.join (None)
+[2024-12-19 21:53:55,875][websockets.server][DEBUG] > TEXT 'ARUP#1#GAMING#########################%' [39 bytes]
+[2024-12-19 21:53:55,876][websockets.server][DEBUG] > TEXT 'ARUP#1#GAMING#########################%' [39 bytes]
+[2024-12-19 21:53:55,877][websockets.server][DEBUG] > TEXT 'ARUP#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:53:55,877][websockets.server][DEBUG] > TEXT 'ARUP#0#1#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:53:55,878][websockets.server][DEBUG] > TEXT 'TI#0#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,879][websockets.server][DEBUG] > TEXT 'TI#0#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,879][websockets.server][DEBUG] > TEXT 'TI#1#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,880][websockets.server][DEBUG] > TEXT 'TI#1#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,881][websockets.server][DEBUG] > TEXT 'TI#2#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,881][websockets.server][DEBUG] > TEXT 'TI#2#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,882][websockets.server][DEBUG] > TEXT 'TI#3#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,882][websockets.server][DEBUG] > TEXT 'TI#3#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,883][websockets.server][DEBUG] > TEXT 'TI#4#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,883][websockets.server][DEBUG] > TEXT 'TI#4#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,884][websockets.server][DEBUG] > TEXT 'TI#5#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,884][websockets.server][DEBUG] > TEXT 'TI#5#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,885][websockets.server][DEBUG] > TEXT 'TI#6#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,885][websockets.server][DEBUG] > TEXT 'TI#6#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,886][websockets.server][DEBUG] > TEXT 'TI#7#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,886][websockets.server][DEBUG] > TEXT 'TI#7#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,887][websockets.server][DEBUG] > TEXT 'TI#8#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,887][websockets.server][DEBUG] > TEXT 'TI#8#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,888][websockets.server][DEBUG] > TEXT 'TI#9#1#0#%' [10 bytes]
+[2024-12-19 21:53:55,888][websockets.server][DEBUG] > TEXT 'TI#9#3#0#%' [10 bytes]
+[2024-12-19 21:53:55,889][websockets.server][DEBUG] > TEXT 'TI#10#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,889][websockets.server][DEBUG] > TEXT 'TI#10#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,890][websockets.server][DEBUG] > TEXT 'TI#11#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,890][websockets.server][DEBUG] > TEXT 'TI#11#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,890][websockets.server][DEBUG] > TEXT 'TI#12#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,891][websockets.server][DEBUG] > TEXT 'TI#12#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,891][websockets.server][DEBUG] > TEXT 'TI#13#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,892][websockets.server][DEBUG] > TEXT 'TI#13#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,892][websockets.server][DEBUG] > TEXT 'TI#14#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,893][websockets.server][DEBUG] > TEXT 'TI#14#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,893][websockets.server][DEBUG] > TEXT 'TI#15#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,894][websockets.server][DEBUG] > TEXT 'TI#15#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,894][websockets.server][DEBUG] > TEXT 'TI#16#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,895][websockets.server][DEBUG] > TEXT 'TI#16#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,895][websockets.server][DEBUG] > TEXT 'TI#17#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,895][websockets.server][DEBUG] > TEXT 'TI#17#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,896][websockets.server][DEBUG] > TEXT 'TI#18#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,896][websockets.server][DEBUG] > TEXT 'TI#18#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,897][websockets.server][DEBUG] > TEXT 'TI#19#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,897][websockets.server][DEBUG] > TEXT 'TI#19#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,898][websockets.server][DEBUG] > TEXT 'TI#20#1#0#%' [11 bytes]
+[2024-12-19 21:53:55,898][websockets.server][DEBUG] > TEXT 'TI#20#3#0#%' [11 bytes]
+[2024-12-19 21:53:55,899][websockets.server][DEBUG] > TEXT 'ARUP#0#-1#%' [11 bytes]
+[2024-12-19 21:53:55,899][websockets.server][DEBUG] > TEXT 'ARUP#0#2#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:53:55,900][websockets.server][DEBUG] > TEXT 'ARUP#0#2#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#...0#0#0#0#0#0#0#0#0#0#0#%' [106 bytes]
+[2024-12-19 21:53:55,901][websockets.server][DEBUG] > TEXT 'HP#1#10#%' [9 bytes]
+[2024-12-19 21:53:55,901][websockets.server][DEBUG] > TEXT 'HP#2#10#%' [9 bytes]
+[2024-12-19 21:53:55,902][websockets.server][DEBUG] > TEXT 'BN#gs4##%' [9 bytes]
+[2024-12-19 21:53:55,902][websockets.server][DEBUG] > TEXT 'LE#%' [4 bytes]
+[2024-12-19 21:53:55,903][websockets.server][DEBUG] > TEXT 'JD#-1#%' [7 bytes]
+[2024-12-19 21:53:55,904][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#🚶Changed to area: [0] Lobby (user... [🤖](W)[0] iniswap7#1#%' [267 bytes]
+[2024-12-19 21:53:55,904][websockets.server][DEBUG] > TEXT 'CU#1#2#%' [8 bytes]
+[2024-12-19 21:53:55,905][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#[2] Layton enters from [5] Tribunal 3.#1#%' [56 bytes]
+[2024-12-19 21:53:55,906][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#[2] Layton enters from [5] Tribunal 3.#1#%' [56 bytes]
+[2024-12-19 21:53:55,906][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#[2] Layton enters from [5] Tribunal 3.#1#%' [56 bytes]
+[2024-12-19 21:53:56,716][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:53:56,717][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:57,523][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:53:57,526][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:53:59,731][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:53:59,732][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:01,729][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:01,730][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:02,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:02,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:04,246][websockets.server][DEBUG] < TEXT 'MC#🌍[0] Español#44#%' [24 bytes]
+[2024-12-19 21:54:04,249][websockets.server][DEBUG] > TEXT 'FL#yellowtext#customobjections#prezoom#flipping...ed_desk_mods#y_offset#%' [193 bytes]
+[2024-12-19 21:54:04,250][websockets.server][DEBUG] > TEXT 'FA#🌐 Hubs 🌐\n Double-Click me to see Areas\n  _...ras salas! (users: 0)#%' [137 bytes]
+[2024-12-19 21:54:04,740][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:04,741][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:04,785][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:54:06,755][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:06,756][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:07,527][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:07,528][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:09,147][websockets.server][DEBUG] < TEXT 'MC#🌐 Hubs 🌐\n Double-Click me to see Areas\n  _______#44#%' [62 bytes]
+[2024-12-19 21:54:09,151][websockets.server][DEBUG] > TEXT 'FL#yellowtext#customobjections#prezoom#flipping...ed_desk_mods#y_offset#%' [198 bytes]
+[2024-12-19 21:54:09,152][websockets.server][DEBUG] > TEXT 'FA#🌍[0] Español#Lobby#Sala de juegos#Prueba o V...#Chat 8#Sala Magatama#%' [261 bytes]
+[2024-12-19 21:54:09,154][websockets.server][DEBUG] > TEXT 'ARUP#0#2#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 21:54:09,155][websockets.server][DEBUG] > TEXT 'ARUP#1#GAMING#########################%' [39 bytes]
+[2024-12-19 21:54:09,156][websockets.server][DEBUG] > TEXT 'ARUP#2#Double-Click for Hubs#########################%' [54 bytes]
+[2024-12-19 21:54:09,157][websockets.server][DEBUG] > TEXT 'ARUP#3##########################%' [33 bytes]
+[2024-12-19 21:54:09,751][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:09,752][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:11,428][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:11,429][websockets.server][DEBUG] > PING 6f 5c 9d 8a [binary, 4 bytes]
+[2024-12-19 21:54:11,430][websockets.server][DEBUG] < PONG 6f 5c 9d 8a [binary, 4 bytes]
+[2024-12-19 21:54:11,431][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:11,758][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:11,759][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:12,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:12,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:12,532][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:12,533][websockets.server][DEBUG] > PING 'V\x0f/7' [text, 4 bytes]
+[2024-12-19 21:54:12,554][websockets.server][DEBUG] < PONG 'V\x0f/7' [text, 4 bytes]
+[2024-12-19 21:54:12,555][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:12,741][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:12,742][websockets.server][DEBUG] > PING e9 0c c7 1a [binary, 4 bytes]
+[2024-12-19 21:54:12,747][websockets.server][DEBUG] < PONG e9 0c c7 1a [binary, 4 bytes]
+[2024-12-19 21:54:12,749][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:14,756][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:14,758][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:16,759][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:16,760][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:17,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:17,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:19,765][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:19,766][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:21,772][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:21,773][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:22,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:22,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:24,775][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:24,776][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:26,781][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:26,783][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:27,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:27,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:29,786][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:29,787][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:31,441][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:31,442][websockets.server][DEBUG] > PING 8e 07 dc ca [binary, 4 bytes]
+[2024-12-19 21:54:31,444][websockets.server][DEBUG] < PONG 8e 07 dc ca [binary, 4 bytes]
+[2024-12-19 21:54:31,446][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:31,786][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:31,788][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:32,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:32,526][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:32,556][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:32,557][websockets.server][DEBUG] > PING 6c 03 bb 2e [binary, 4 bytes]
+[2024-12-19 21:54:32,577][websockets.server][DEBUG] < PONG 6c 03 bb 2e [binary, 4 bytes]
+[2024-12-19 21:54:32,578][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:32,751][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:32,752][websockets.server][DEBUG] > PING 86 59 21 b4 [binary, 4 bytes]
+[2024-12-19 21:54:32,755][websockets.server][DEBUG] < PONG 86 59 21 b4 [binary, 4 bytes]
+[2024-12-19 21:54:32,756][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:34,798][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:34,799][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:36,794][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:36,795][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:37,539][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:37,540][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:39,802][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:39,803][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:41,803][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:41,804][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:42,534][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:42,536][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:44,813][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:44,814][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:46,812][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:46,816][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:47,536][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:47,537][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:49,814][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:49,815][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:51,455][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:51,456][websockets.server][DEBUG] > PING 03 82 c3 33 [binary, 4 bytes]
+[2024-12-19 21:54:51,457][websockets.server][DEBUG] < PONG 03 82 c3 33 [binary, 4 bytes]
+[2024-12-19 21:54:51,458][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:51,816][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:51,818][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:52,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:52,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:52,579][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:52,579][websockets.server][DEBUG] > PING 13 02 e8 56 [binary, 4 bytes]
+[2024-12-19 21:54:52,599][websockets.server][DEBUG] < PONG 13 02 e8 56 [binary, 4 bytes]
+[2024-12-19 21:54:52,600][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:52,758][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:54:52,758][websockets.server][DEBUG] > PING 27 48 b2 c4 [binary, 4 bytes]
+[2024-12-19 21:54:52,761][websockets.server][DEBUG] < PONG 27 48 b2 c4 [binary, 4 bytes]
+[2024-12-19 21:54:52,762][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:54:54,818][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:54,819][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:56,821][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:54:56,825][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:57,534][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:54:57,535][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:54:59,832][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:54:59,835][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:01,831][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:01,833][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:02,532][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:02,533][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:04,846][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:04,847][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:06,836][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:06,839][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:07,318][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:55:07,522][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:07,523][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:09,860][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:09,861][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:11,467][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:11,467][websockets.server][DEBUG] > PING ff 8b 4d 74 [binary, 4 bytes]
+[2024-12-19 21:55:11,469][websockets.server][DEBUG] < PONG ff 8b 4d 74 [binary, 4 bytes]
+[2024-12-19 21:55:11,470][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:11,840][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:11,842][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:12,530][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:12,531][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:12,602][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:12,603][websockets.server][DEBUG] > PING '\x1a\x91\x02' [text, 4 bytes]
+[2024-12-19 21:55:12,622][websockets.server][DEBUG] < PONG '\x1a\x91\x02' [text, 4 bytes]
+[2024-12-19 21:55:12,622][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:12,764][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:12,764][websockets.server][DEBUG] > PING ae ba 84 8e [binary, 4 bytes]
+[2024-12-19 21:55:12,767][websockets.server][DEBUG] < PONG ae ba 84 8e [binary, 4 bytes]
+[2024-12-19 21:55:12,768][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:14,867][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:14,868][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:16,845][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:16,850][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:17,529][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:17,530][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:19,876][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:19,877][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:21,847][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:21,850][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:22,529][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:22,532][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:24,889][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:24,890][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:26,849][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:26,851][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:27,525][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:27,526][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:29,892][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:29,893][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:31,476][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:31,476][websockets.server][DEBUG] > PING af 8e 8f ad [binary, 4 bytes]
+[2024-12-19 21:55:31,478][websockets.server][DEBUG] < PONG af 8e 8f ad [binary, 4 bytes]
+[2024-12-19 21:55:31,479][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:31,852][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:31,854][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:32,528][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:32,529][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:32,624][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:32,624][websockets.server][DEBUG] > PING e6 54 2e 31 [binary, 4 bytes]
+[2024-12-19 21:55:32,645][websockets.server][DEBUG] < PONG e6 54 2e 31 [binary, 4 bytes]
+[2024-12-19 21:55:32,646][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:32,769][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:32,770][websockets.server][DEBUG] > PING 68 93 0a d3 [binary, 4 bytes]
+[2024-12-19 21:55:32,773][websockets.server][DEBUG] < PONG 68 93 0a d3 [binary, 4 bytes]
+[2024-12-19 21:55:32,774][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:34,906][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:34,907][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:36,856][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:36,859][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:37,528][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:37,529][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:39,913][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:39,914][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:41,872][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:41,874][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:42,527][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:42,528][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:44,915][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:44,918][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:46,876][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:46,878][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:47,527][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:47,528][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:49,928][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:49,929][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:51,488][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:51,488][websockets.server][DEBUG] > PING 8a f9 62 ef [binary, 4 bytes]
+[2024-12-19 21:55:51,489][websockets.server][DEBUG] < PONG 8a f9 62 ef [binary, 4 bytes]
+[2024-12-19 21:55:51,490][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:51,879][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:51,882][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:52,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:52,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:52,647][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:52,648][websockets.server][DEBUG] > PING d4 4e 42 6f [binary, 4 bytes]
+[2024-12-19 21:55:52,667][websockets.server][DEBUG] < PONG d4 4e 42 6f [binary, 4 bytes]
+[2024-12-19 21:55:52,667][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:52,776][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:55:52,776][websockets.server][DEBUG] > PING 4a a4 d6 47 [binary, 4 bytes]
+[2024-12-19 21:55:52,779][websockets.server][DEBUG] < PONG 4a a4 d6 47 [binary, 4 bytes]
+[2024-12-19 21:55:52,780][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:55:54,935][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:54,936][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:56,892][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:55:56,896][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:57,526][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:55:57,527][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:55:59,950][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:55:59,951][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:01,897][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:01,902][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:02,522][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:02,523][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:04,955][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:04,956][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:06,900][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:06,902][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:07,522][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:07,524][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:09,964][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:09,965][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:10,111][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:56:11,499][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:11,499][websockets.server][DEBUG] > PING 48 c1 84 7d [binary, 4 bytes]
+[2024-12-19 21:56:11,500][websockets.server][DEBUG] < PONG 48 c1 84 7d [binary, 4 bytes]
+[2024-12-19 21:56:11,501][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:11,903][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:11,905][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:12,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:12,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:12,670][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:12,671][websockets.server][DEBUG] > PING ac 32 6d a2 [binary, 4 bytes]
+[2024-12-19 21:56:12,691][websockets.server][DEBUG] < PONG ac 32 6d a2 [binary, 4 bytes]
+[2024-12-19 21:56:12,692][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:12,781][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:12,782][websockets.server][DEBUG] > PING c8 35 01 25 [binary, 4 bytes]
+[2024-12-19 21:56:12,786][websockets.server][DEBUG] < PONG c8 35 01 25 [binary, 4 bytes]
+[2024-12-19 21:56:12,788][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:14,974][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:14,975][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:16,916][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:16,919][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:17,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:17,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:19,984][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:19,986][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:21,920][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:21,923][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:22,523][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:22,524][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:24,996][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:24,998][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:26,928][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:26,932][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:27,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:27,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:30,005][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:30,008][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:31,510][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:31,511][websockets.server][DEBUG] > PING 3f ca 61 38 [binary, 4 bytes]
+[2024-12-19 21:56:31,512][websockets.server][DEBUG] < PONG 3f ca 61 38 [binary, 4 bytes]
+[2024-12-19 21:56:31,513][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:31,932][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:31,934][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:32,520][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:32,521][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:32,694][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:32,694][websockets.server][DEBUG] > PING 73 cf 55 1f [binary, 4 bytes]
+[2024-12-19 21:56:32,713][websockets.server][DEBUG] < PONG 73 cf 55 1f [binary, 4 bytes]
+[2024-12-19 21:56:32,714][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:32,790][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:32,790][websockets.server][DEBUG] > PING 0d fd c3 72 [binary, 4 bytes]
+[2024-12-19 21:56:32,793][websockets.server][DEBUG] < PONG 0d fd c3 72 [binary, 4 bytes]
+[2024-12-19 21:56:32,794][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:35,017][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:35,018][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:36,941][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:36,944][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:37,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:37,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:40,028][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:40,029][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:41,964][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:41,966][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:42,534][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:42,535][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:45,034][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:45,035][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:46,978][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:46,981][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:47,534][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:47,535][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:50,044][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:50,045][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:51,520][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:51,520][websockets.server][DEBUG] > PING d5 61 7b 0c [binary, 4 bytes]
+[2024-12-19 21:56:51,521][websockets.server][DEBUG] < PONG d5 61 7b 0c [binary, 4 bytes]
+[2024-12-19 21:56:51,522][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:51,980][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:51,982][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:52,530][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:52,533][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:52,715][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:52,716][websockets.server][DEBUG] > PING 94 ad cf c2 [binary, 4 bytes]
+[2024-12-19 21:56:52,736][websockets.server][DEBUG] < PONG 94 ad cf c2 [binary, 4 bytes]
+[2024-12-19 21:56:52,737][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:52,795][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:56:52,796][websockets.server][DEBUG] > PING ce c7 fe 4c [binary, 4 bytes]
+[2024-12-19 21:56:52,799][websockets.server][DEBUG] < PONG ce c7 fe 4c [binary, 4 bytes]
+[2024-12-19 21:56:52,800][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:56:55,058][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:56:55,060][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:57,004][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:56:57,008][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:56:57,533][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:56:57,534][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:00,073][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:00,074][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:02,013][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:02,016][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:02,529][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:02,530][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:05,081][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:05,082][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:07,027][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:07,028][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:07,530][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:07,531][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:10,095][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:10,096][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:11,530][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:11,531][websockets.server][DEBUG] > PING 01 a7 7c 17 [binary, 4 bytes]
+[2024-12-19 21:57:11,532][websockets.server][DEBUG] < PONG 01 a7 7c 17 [binary, 4 bytes]
+[2024-12-19 21:57:11,533][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:12,030][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:12,031][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:12,528][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:12,529][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:12,740][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:12,740][websockets.server][DEBUG] > PING 44 36 5c c4 [binary, 4 bytes]
+[2024-12-19 21:57:12,760][websockets.server][DEBUG] < PONG 44 36 5c c4 [binary, 4 bytes]
+[2024-12-19 21:57:12,761][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:12,802][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:12,802][websockets.server][DEBUG] > PING 22 83 42 2b [binary, 4 bytes]
+[2024-12-19 21:57:12,806][websockets.server][DEBUG] < PONG 22 83 42 2b [binary, 4 bytes]
+[2024-12-19 21:57:12,807][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:13,095][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:57:15,107][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:15,109][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:17,055][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:17,056][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:17,529][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:17,532][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:20,118][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:20,119][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:22,065][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:22,066][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:22,523][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:22,524][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:25,124][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:25,125][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:27,069][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:27,070][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:27,525][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:27,526][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:29,281][aoprotocol][DEBUG] 57122 disconnected.
+[2024-12-19 21:57:30,138][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:30,139][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:31,542][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:31,542][websockets.server][DEBUG] > PING ef 2f ad f4 [binary, 4 bytes]
+[2024-12-19 21:57:31,545][websockets.server][DEBUG] < PONG ef 2f ad f4 [binary, 4 bytes]
+[2024-12-19 21:57:31,546][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:32,073][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:32,076][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:32,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:32,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:32,764][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:32,765][websockets.server][DEBUG] > PING 6d ba c9 e9 [binary, 4 bytes]
+[2024-12-19 21:57:32,787][websockets.server][DEBUG] < PONG 6d ba c9 e9 [binary, 4 bytes]
+[2024-12-19 21:57:32,789][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:32,809][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:32,810][websockets.server][DEBUG] > PING c3 4e 28 4c [binary, 4 bytes]
+[2024-12-19 21:57:32,815][websockets.server][DEBUG] < PONG c3 4e 28 4c [binary, 4 bytes]
+[2024-12-19 21:57:32,816][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:35,152][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:35,153][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:37,079][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:37,080][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:37,527][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:37,529][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:40,160][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:40,161][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:42,083][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:42,084][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:42,526][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:42,527][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:45,172][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:45,175][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:47,088][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:47,089][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:47,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:47,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:50,187][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:50,189][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:51,555][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:51,556][websockets.server][DEBUG] > PING 78 ea cd 6c [binary, 4 bytes]
+[2024-12-19 21:57:51,557][websockets.server][DEBUG] < PONG 78 ea cd 6c [binary, 4 bytes]
+[2024-12-19 21:57:51,558][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:52,092][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:52,093][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:52,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:52,523][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:52,792][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:52,792][websockets.server][DEBUG] > PING c4 e8 80 c5 [binary, 4 bytes]
+[2024-12-19 21:57:52,812][websockets.server][DEBUG] < PONG c4 e8 80 c5 [binary, 4 bytes]
+[2024-12-19 21:57:52,813][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:52,817][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:57:52,817][websockets.server][DEBUG] > PING 93 1f a4 24 [binary, 4 bytes]
+[2024-12-19 21:57:52,820][websockets.server][DEBUG] < PONG 93 1f a4 24 [binary, 4 bytes]
+[2024-12-19 21:57:52,821][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:57:55,197][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:57:55,200][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:57,099][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:57:57,100][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:57:57,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:57:57,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:00,211][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:00,214][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:02,113][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:02,114][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:02,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:02,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:05,225][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:05,226][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:07,117][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:07,118][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:07,520][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:07,521][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:10,229][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:10,230][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:11,564][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:11,566][websockets.server][DEBUG] > PING '[lVQ' [text, 4 bytes]
+[2024-12-19 21:58:11,568][websockets.server][DEBUG] < PONG '[lVQ' [text, 4 bytes]
+[2024-12-19 21:58:11,568][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:12,121][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:12,122][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:12,523][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:12,524][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:12,816][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:12,816][websockets.server][DEBUG] > PING 20 ac 92 06 [binary, 4 bytes]
+[2024-12-19 21:58:12,822][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:12,823][websockets.server][DEBUG] > PING c5 79 04 51 [binary, 4 bytes]
+[2024-12-19 21:58:12,826][websockets.server][DEBUG] < PONG c5 79 04 51 [binary, 4 bytes]
+[2024-12-19 21:58:12,826][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:15,244][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:15,245][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:15,539][websockets.server][DEBUG] < PONG 20 ac 92 06 [binary, 4 bytes]
+[2024-12-19 21:58:15,540][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:15,700][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:58:17,129][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:17,131][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:17,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:17,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:20,253][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:20,254][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:22,134][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:22,136][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:22,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:22,523][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:25,266][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:25,267][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:27,139][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:27,141][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:27,520][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:27,521][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:30,279][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:30,280][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:31,571][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:31,572][websockets.server][DEBUG] > PING 80 13 80 5e [binary, 4 bytes]
+[2024-12-19 21:58:31,574][websockets.server][DEBUG] < PONG 80 13 80 5e [binary, 4 bytes]
+[2024-12-19 21:58:31,574][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:32,143][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:32,145][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:32,520][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:32,521][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:32,828][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:32,829][websockets.server][DEBUG] > PING 48 56 33 d0 [binary, 4 bytes]
+[2024-12-19 21:58:32,832][websockets.server][DEBUG] < PONG 48 56 33 d0 [binary, 4 bytes]
+[2024-12-19 21:58:32,833][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:35,555][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:35,555][websockets.server][DEBUG] > PING 09 ec 73 62 [binary, 4 bytes]
+[2024-12-19 21:58:35,575][websockets.server][DEBUG] < PONG 09 ec 73 62 [binary, 4 bytes]
+[2024-12-19 21:58:35,576][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:35,859][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:35,860][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:37,154][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:37,157][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:37,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:37,523][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:40,874][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:40,875][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:42,180][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:42,183][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:42,531][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:42,532][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:45,883][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:45,884][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:47,194][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:47,196][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:47,531][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:47,532][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:50,888][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:50,891][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:51,579][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:51,580][websockets.server][DEBUG] > PING 'ÍH%' [text, 4 bytes]
+[2024-12-19 21:58:51,581][websockets.server][DEBUG] < PONG 'ÍH%' [text, 4 bytes]
+[2024-12-19 21:58:51,582][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:52,198][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:52,202][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:52,529][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:52,530][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:52,835][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:52,836][websockets.server][DEBUG] > PING f7 e3 82 c2 [binary, 4 bytes]
+[2024-12-19 21:58:52,839][websockets.server][DEBUG] < PONG f7 e3 82 c2 [binary, 4 bytes]
+[2024-12-19 21:58:52,840][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:55,591][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:58:55,592][websockets.server][DEBUG] > PING 19 a1 c6 a7 [binary, 4 bytes]
+[2024-12-19 21:58:55,611][websockets.server][DEBUG] < PONG 19 a1 c6 a7 [binary, 4 bytes]
+[2024-12-19 21:58:55,612][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:58:55,896][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:58:55,897][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:57,204][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:58:57,207][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:58:57,532][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:58:57,533][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:00,897][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:00,898][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:02,205][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:02,210][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:02,532][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:02,533][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:05,909][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:05,910][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:07,220][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:07,223][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:07,530][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:07,533][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:11,255][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:11,256][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:11,585][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:11,585][websockets.server][DEBUG] > PING e7 cb 3f d7 [binary, 4 bytes]
+[2024-12-19 21:59:11,587][websockets.server][DEBUG] < PONG e7 cb 3f d7 [binary, 4 bytes]
+[2024-12-19 21:59:11,588][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:12,224][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:12,226][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:12,529][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:12,530][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:12,842][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:12,843][websockets.server][DEBUG] > PING 46 17 17 f8 [binary, 4 bytes]
+[2024-12-19 21:59:12,846][websockets.server][DEBUG] < PONG 46 17 17 f8 [binary, 4 bytes]
+[2024-12-19 21:59:12,847][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:15,627][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:15,628][websockets.server][DEBUG] > PING 2c fb 5d 37 [binary, 4 bytes]
+[2024-12-19 21:59:15,648][websockets.server][DEBUG] < PONG 2c fb 5d 37 [binary, 4 bytes]
+[2024-12-19 21:59:15,649][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:16,288][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:16,289][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:17,229][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:17,232][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:17,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:17,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:18,415][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 21:59:21,292][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:21,293][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:22,252][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:22,255][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:22,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:22,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:26,630][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:26,631][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:27,266][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:27,299][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:27,529][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:27,530][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:31,609][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:31,610][websockets.server][DEBUG] > PING '~Fݙ' [text, 4 bytes]
+[2024-12-19 21:59:31,611][websockets.server][DEBUG] < PONG '~Fݙ' [text, 4 bytes]
+[2024-12-19 21:59:31,612][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:31,643][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:31,644][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:32,270][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:32,304][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:32,528][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:32,529][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:32,849][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:32,850][websockets.server][DEBUG] > PING 81 4d 68 22 [binary, 4 bytes]
+[2024-12-19 21:59:32,853][websockets.server][DEBUG] < PONG 81 4d 68 22 [binary, 4 bytes]
+[2024-12-19 21:59:32,854][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:35,656][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:35,658][websockets.server][DEBUG] > PING b2 e4 32 fa [binary, 4 bytes]
+[2024-12-19 21:59:35,680][websockets.server][DEBUG] < PONG b2 e4 32 fa [binary, 4 bytes]
+[2024-12-19 21:59:35,681][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:36,651][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:36,653][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:37,272][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:37,314][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:37,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:37,524][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:41,658][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:41,659][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:42,297][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:42,338][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:42,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:42,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:46,668][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:46,670][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:47,299][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:47,339][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:47,520][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:47,521][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:51,633][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:51,634][websockets.server][DEBUG] > PING 76 f7 fe 30 [binary, 4 bytes]
+[2024-12-19 21:59:51,636][websockets.server][DEBUG] < PONG 76 f7 fe 30 [binary, 4 bytes]
+[2024-12-19 21:59:51,636][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:51,681][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:51,682][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:52,303][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:52,336][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:52,525][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:52,527][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:52,857][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:52,858][websockets.server][DEBUG] > PING 2a ec 24 af [binary, 4 bytes]
+[2024-12-19 21:59:52,862][websockets.server][DEBUG] < PONG 2a ec 24 af [binary, 4 bytes]
+[2024-12-19 21:59:52,863][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:55,697][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 21:59:55,697][websockets.server][DEBUG] > PING 2f 2a ca 49 [binary, 4 bytes]
+[2024-12-19 21:59:55,716][websockets.server][DEBUG] < PONG 2f 2a ca 49 [binary, 4 bytes]
+[2024-12-19 21:59:55,717][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 21:59:56,688][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 21:59:56,689][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:57,327][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 21:59:57,401][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 21:59:57,522][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 21:59:57,523][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:01,689][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:01,690][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:02,333][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:02,377][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:02,524][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:02,525][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:06,698][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:06,699][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:07,337][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:07,374][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:07,522][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:07,523][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:11,659][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:11,659][websockets.server][DEBUG] > PING 88 8e 76 e4 [binary, 4 bytes]
+[2024-12-19 22:00:11,661][websockets.server][DEBUG] < PONG 88 8e 76 e4 [binary, 4 bytes]
+[2024-12-19 22:00:11,661][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:11,699][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:11,700][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:12,343][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:12,379][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:12,523][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:12,524][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:12,866][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:12,867][websockets.server][DEBUG] > PING 71 e8 45 64 [binary, 4 bytes]
+[2024-12-19 22:00:12,871][websockets.server][DEBUG] < PONG 71 e8 45 64 [binary, 4 bytes]
+[2024-12-19 22:00:12,872][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:15,733][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:15,733][websockets.server][DEBUG] > PING a5 41 5c c5 [binary, 4 bytes]
+[2024-12-19 22:00:15,754][websockets.server][DEBUG] < PONG a5 41 5c c5 [binary, 4 bytes]
+[2024-12-19 22:00:15,755][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:16,712][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:16,713][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:17,360][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:17,435][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:17,522][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:17,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:21,053][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 22:00:21,724][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:21,725][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:22,365][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:22,401][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:22,522][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:22,523][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:26,723][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:26,724][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:27,384][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:27,422][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:27,520][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:27,521][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:31,683][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:31,684][websockets.server][DEBUG] > PING 54 4a 24 c0 [binary, 4 bytes]
+[2024-12-19 22:00:31,685][websockets.server][DEBUG] < PONG 54 4a 24 c0 [binary, 4 bytes]
+[2024-12-19 22:00:31,686][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:31,734][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:31,735][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:32,390][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:32,424][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:32,520][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:32,521][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:32,876][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:32,877][websockets.server][DEBUG] > PING 15 92 2a 04 [binary, 4 bytes]
+[2024-12-19 22:00:32,880][websockets.server][DEBUG] < PONG 15 92 2a 04 [binary, 4 bytes]
+[2024-12-19 22:00:32,881][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:35,770][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:35,772][websockets.server][DEBUG] > PING c0 e9 f6 c5 [binary, 4 bytes]
+[2024-12-19 22:00:35,793][websockets.server][DEBUG] < PONG c0 e9 f6 c5 [binary, 4 bytes]
+[2024-12-19 22:00:35,794][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:36,735][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:36,736][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:37,396][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:37,463][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:37,534][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:37,535][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:41,745][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:41,746][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:42,412][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:42,444][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:42,528][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:42,529][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:46,756][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:46,757][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:47,427][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:47,460][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:47,533][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:47,534][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:51,709][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:51,710][websockets.server][DEBUG] > PING 64 c1 00 99 [binary, 4 bytes]
+[2024-12-19 22:00:51,711][websockets.server][DEBUG] < PONG 64 c1 00 99 [binary, 4 bytes]
+[2024-12-19 22:00:51,712][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:51,771][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:51,772][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:52,432][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:52,466][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:52,533][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:52,534][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:52,885][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:52,886][websockets.server][DEBUG] > PING 6b 9a 0b 39 [binary, 4 bytes]
+[2024-12-19 22:00:52,889][websockets.server][DEBUG] < PONG 6b 9a 0b 39 [binary, 4 bytes]
+[2024-12-19 22:00:52,890][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:55,811][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:00:55,811][websockets.server][DEBUG] > PING ee 72 a5 e1 [binary, 4 bytes]
+[2024-12-19 22:00:55,831][websockets.server][DEBUG] < PONG ee 72 a5 e1 [binary, 4 bytes]
+[2024-12-19 22:00:55,832][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:00:56,785][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:00:56,786][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:57,436][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:00:57,470][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:00:57,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:00:57,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:01,793][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:01:01,794][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:02,445][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:01:03,215][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:01:03,216][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:03,218][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:06,808][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:01:06,809][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:07,450][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:01:07,484][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:07,530][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:01:07,531][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:11,716][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:01:11,717][websockets.server][DEBUG] > PING c3 21 fe c7 [binary, 4 bytes]
+[2024-12-19 22:01:11,721][websockets.server][DEBUG] < PONG c3 21 fe c7 [binary, 4 bytes]
+[2024-12-19 22:01:11,723][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:01:11,821][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:01:11,822][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:12,453][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:01:12,491][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:12,530][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:01:12,531][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:12,893][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:01:12,894][websockets.server][DEBUG] > PING 01 48 76 a9 [binary, 4 bytes]
+[2024-12-19 22:01:12,897][websockets.server][DEBUG] < PONG 01 48 76 a9 [binary, 4 bytes]
+[2024-12-19 22:01:12,897][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:01:15,848][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:01:15,848][websockets.server][DEBUG] > PING 93 7d a4 e7 [binary, 4 bytes]
+[2024-12-19 22:01:15,867][websockets.server][DEBUG] < PONG 93 7d a4 e7 [binary, 4 bytes]
+[2024-12-19 22:01:15,868][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:01:16,821][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:01:16,822][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:17,458][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:01:17,528][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:17,530][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:01:17,531][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:21,832][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:01:21,833][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:22,473][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:01:22,506][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:22,529][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:01:22,532][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:23,367][websockets.server][DEBUG] = connection is CONNECTING
+[2024-12-19 22:01:23,368][websockets.server][DEBUG] < GET / HTTP/1.1
+[2024-12-19 22:01:23,369][websockets.server][DEBUG] < Host: d9.redjstone.com:11837
+[2024-12-19 22:01:23,369][websockets.server][DEBUG] < Connection: Upgrade
+[2024-12-19 22:01:23,370][websockets.server][DEBUG] < Pragma: no-cache
+[2024-12-19 22:01:23,370][websockets.server][DEBUG] < Cache-Control: no-cache
+[2024-12-19 22:01:23,370][websockets.server][DEBUG] < User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+[2024-12-19 22:01:23,371][websockets.server][DEBUG] < Upgrade: websocket
+[2024-12-19 22:01:23,371][websockets.server][DEBUG] < Origin: http://web.aceattorneyonline.com
+[2024-12-19 22:01:23,372][websockets.server][DEBUG] < Sec-WebSocket-Version: 13
+[2024-12-19 22:01:23,372][websockets.server][DEBUG] < Accept-Encoding: gzip, deflate
+[2024-12-19 22:01:23,372][websockets.server][DEBUG] < Accept-Language: en-US,en;q=0.9
+[2024-12-19 22:01:23,373][websockets.server][DEBUG] < Sec-WebSocket-Key: dJm18Q1q2APnaszJM2Is9w==
+[2024-12-19 22:01:23,373][websockets.server][DEBUG] < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+[2024-12-19 22:01:23,374][websockets.server][DEBUG] > HTTP/1.1 101 Switching Protocols
+[2024-12-19 22:01:23,374][websockets.server][DEBUG] > Upgrade: websocket
+[2024-12-19 22:01:23,375][websockets.server][DEBUG] > Connection: Upgrade
+[2024-12-19 22:01:23,375][websockets.server][DEBUG] > Sec-WebSocket-Accept: Pe9Eq1v2dyxR0n8O7RcVxAyCZJE=
+[2024-12-19 22:01:23,376][websockets.server][DEBUG] > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+[2024-12-19 22:01:23,376][websockets.server][DEBUG] > Date: Thu, 19 Dec 2024 22:01:23 GMT
+[2024-12-19 22:01:23,376][websockets.server][DEBUG] > Server: Python/3.11 websockets/12.0
+[2024-12-19 22:01:23,377][websockets.server][INFO] connection open
+[2024-12-19 22:01:23,378][websockets.server][DEBUG] = connection is OPEN
+[2024-12-19 22:01:23,412][websockets.server][DEBUG] > TEXT 'decryptor#NOENCRYPT#%' [21 bytes]
+[2024-12-19 22:01:23,571][websockets.server][DEBUG] < TEXT 'HI#4dbe29f3fc32977ddd374d8cb6478827#%' [37 bytes]
+Handshake: 66.74.203.173:53106 - 59470 / 4dbe29f3fc32977ddd374d8cb6478827
+[2024-12-19 22:01:23,639][database][INFO] 59470 (HDID: 4dbe29f3fc32977ddd374d8cb6478827) connected.
+[2024-12-19 22:01:23,782][websockets.server][DEBUG] > TEXT 'ID#3#KFO-Server#3.3.0#%' [23 bytes]
+[2024-12-19 22:01:23,783][websockets.server][DEBUG] > TEXT 'PN#3#150#%' [10 bytes]
+[2024-12-19 22:01:23,810][debug][DEBUG] Heartbeat to https://servers.aceattorneyonline.com/servers
+[2024-12-19 22:01:23,967][websockets.server][DEBUG] < TEXT 'ID#webAO#2.8.0#%' [16 bytes]
+[2024-12-19 22:01:23,968][websockets.server][DEBUG] < TEXT 'askchaa#%' [9 bytes]
+[2024-12-19 22:01:23,969][websockets.server][DEBUG] > TEXT 'FL#yellowtext#customobjections#prezoom#flipping...ed_desk_mods#y_offset#%' [198 bytes]
+[2024-12-19 22:01:23,970][websockets.server][DEBUG] > TEXT 'ASS#https://d9c.redjstone.com/#%' [32 bytes]
+[2024-12-19 22:01:23,970][websockets.server][DEBUG] > TEXT 'SI#63#0#0#%' [11 bytes]
+[2024-12-19 22:01:24,158][websockets.server][DEBUG] < TEXT 'RC#%' [4 bytes]
+[2024-12-19 22:01:24,160][websockets.server][DEBUG] > TEXT "SC#iniswap1#iniswap2#iniswap3#iniswap4#iniswap5...asquez#Wellington#Zak#%" [501 bytes]
+[2024-12-19 22:01:24,346][websockets.server][DEBUG] < TEXT 'RM#%' [4 bytes]
+[2024-12-19 22:01:24,352][websockets.server][DEBUG] > TEXT "SM#🌍[0] Español#Lobby#Sala de juegos#Prueba o V...D Gigibyte Remix.opus#%" [61794 bytes]
+[2024-12-19 22:01:24,765][websockets.server][DEBUG] < TEXT 'RD#%' [4 bytes]
+[2024-12-19 22:01:24,767][websockets.server][DEBUG] > TEXT 'CharsCheck#0#0#0#0#0#0#-1#0#0#0#0#0#0#0#0#0#0#0...0#0#0#0#0#0#0#0#0#0#0#%' [140 bytes]
+[2024-12-19 22:01:24,768][websockets.server][DEBUG] > TEXT 'HP#1#10#%' [9 bytes]
+[2024-12-19 22:01:24,768][websockets.server][DEBUG] > TEXT 'HP#2#10#%' [9 bytes]
+[2024-12-19 22:01:24,769][websockets.server][DEBUG] > TEXT 'BN#gs4##%' [9 bytes]
+[2024-12-19 22:01:24,769][websockets.server][DEBUG] > TEXT 'LE#%' [4 bytes]
+[2024-12-19 22:01:24,770][websockets.server][DEBUG] > TEXT 'MM#1#%' [6 bytes]
+[2024-12-19 22:01:24,771][websockets.server][DEBUG] > TEXT 'ARUP#0#2#2#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#%' [58 bytes]
+[2024-12-19 22:01:24,771][websockets.server][DEBUG] > TEXT 'ARUP#1#GAMING#########################%' [39 bytes]
+[2024-12-19 22:01:24,772][websockets.server][DEBUG] > TEXT 'ARUP#2#Double-Click for Hubs#########################%' [54 bytes]
+[2024-12-19 22:01:24,772][websockets.server][DEBUG] > TEXT 'ARUP#3##########################%' [33 bytes]
+[2024-12-19 22:01:24,773][websockets.server][DEBUG] > TEXT 'DONE#%' [6 bytes]
+[2024-12-19 22:01:24,773][websockets.server][DEBUG] > TEXT "CT#<dollar>D9#📟MOTD📟\r\nBienvenido al Tribunal ...cord.gg/Bg5Pakn\r\n#1#%" [424 bytes]
+[2024-12-19 22:01:24,774][websockets.server][DEBUG] > TEXT 'CT#<dollar>D9#🌍HUB [0] Español INFO🌍\r\nBienven...de la estancia!\r\n#1#%' [121 bytes]
+[2024-12-19 22:01:26,844][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:01:26,845][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:27,478][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:01:27,479][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:27,527][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:01:27,528][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:29,049][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:01:29,050][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:31,732][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:01:31,732][websockets.server][DEBUG] > PING 17 7d 73 fb [binary, 4 bytes]
+[2024-12-19 22:01:31,734][websockets.server][DEBUG] < PONG 17 7d 73 fb [binary, 4 bytes]
+[2024-12-19 22:01:31,735][websockets.server][DEBUG] % received keepalive pong
+[2024-12-19 22:01:31,852][websockets.server][DEBUG] < TEXT 'CH#-1#%' [7 bytes]
+[2024-12-19 22:01:31,853][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:32,482][websockets.server][DEBUG] < TEXT 'CH#6#%' [6 bytes]
+[2024-12-19 22:01:32,483][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:32,521][websockets.server][DEBUG] < TEXT 'CH#44#%' [7 bytes]
+[2024-12-19 22:01:32,522][websockets.server][DEBUG] > TEXT 'CHECK#%' [7 bytes]
+[2024-12-19 22:01:32,900][websockets.server][DEBUG] % sending keepalive ping
+[2024-12-19 22:01:32,901][websockets.server][DEBUG] > PING ca 0e be e4 [binary, 4 bytes]
+[2024-12-19 22:01:32,904][websockets.server][DEBUG] < PONG ca 0e be e4 [binary, 4 bytes]
+[2024-12-19 22:01:32,904][websockets.server][DEBUG] % received keepalive pong
