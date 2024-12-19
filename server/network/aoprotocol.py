@@ -1058,6 +1058,72 @@ class AOProtocol(asyncio.Protocol):
         if not third_confirmed:
             third_charid = -1
 
+        if self.client.area.auto_pair:
+            clients_pos = [c for c in self.client.area.clients if c.pos == self.client.pos]
+            clients_pos.sort(key=lambda x: x.id)
+            if len(clients_pos) >= 3 and self.client.area.auto_pair_max == "triple":
+                position = clients_pos.index(self.client)
+                if len(clients_pos) >= position+2:
+                    if position > 0:
+                        client_pair = clients_pos[position-1]
+                        third_client = clients_pos[position+1]
+                    else:
+                        client_pair = clients_pos[position+1]
+                        third_client = clients_pos[position+2]
+                else:
+                    client_pair = clients_pos[position-1]
+                    third_client = clients_pos[position-2]
+                    
+
+                charid_pair = f"{client_pair.char_id}^0"
+                other_emote = client_pair.last_sprite
+                other_flip = client_pair.flip
+                other_folder = client_pair.claimed_folder
+                third_charid = f"{third_client.char_id}^0"
+                third_emote = third_client.last_sprite
+                third_flip = third_client.flip
+                third_folder = third_client.claimed_folder
+
+                if (
+                    self.client.last_offset in [-33, 33, 0]
+                    and client_pair.last_offset in [-33, 33, 0]
+                    and third_client.last_offset in [-33, 33, 0]
+                    and self.client.last_offset != client_pair.last_offset
+                    and self.client.last_offset != third_client.last_offset
+                    and client_pair.last_offset != third_client.last_offset
+                    and not self.client.area.auto_pair_cycle
+                ):
+                    offset_pair = self.client.last_offset
+                    other_offset = client_pair.last_offset
+                    third_offset = third_client.last_offset
+                else:
+                    offset_pair = 0
+                    other_offset = -33
+                    third_offset = 33
+                    self.client.last_offset = 0
+                    client_pair.last_offset = -33
+                    third_client.last_offset = 33
+                   
+            else:
+                offset_pair = 0
+                if len(clients_pos) >= 2:
+                    if clients_pos.index(self.client) == 0:
+                        client_pair = clients_pos[1]
+                    else:
+                        client_pair = clients_pos[clients_pos.index(self.client) - 1]
+                    if self.client.last_offset == -25 or client_pair.last_offset == 25:
+                        offset_pair = -25
+                        other_offset = 25
+                    else:
+                        offset_pair = 25
+                        other_offset = -25
+                        self.client.last_offset = 25
+                        client_pair.last_offset = -25
+                    charid_pair = client_pair.char_id
+                    other_emote = client_pair.last_sprite
+                    other_flip = client_pair.flip
+                    other_folder = client_pair.claimed_folder
+
         ver = self.client.version.split('.')
         if len(ver) >= 2:
             # Client versions 2.9 or less need to get their SFX corrected due to 2.10 changes
@@ -1348,6 +1414,7 @@ class AOProtocol(asyncio.Protocol):
                         frames_sfx,
                         additive_value,
                         effect,
+                        None,
                         third_charid,
                         third_folder,
                         third_emote,

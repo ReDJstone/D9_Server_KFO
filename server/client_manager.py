@@ -67,6 +67,7 @@ class ClientManager:
             self.pair_order = 0
             # Pairing offset
             self.offset_pair = 0
+            self.last_offset = 0
 
             self.last_sprite = ""
             self.last_pre = ""
@@ -82,6 +83,9 @@ class ClientManager:
             self.casing_jur = False
             self.casing_steno = False
             self.case_call_time = 0
+
+            # Need command
+            self.need_call_time = 0
 
             # flood-guard stuff
             self.mus_counter = 0
@@ -952,9 +956,10 @@ class ClientManager:
 
             # Send the background information
             if self.area.dark:
-                self.send_command("BN", self.area.background_dark, self.pos)
+                # TODO: separate dark area overlays
+                self.send_command("BN", self.area.background_dark, self.pos, self.area.overlay, 1)
             else:
-                self.send_command("BN", self.area.background, self.pos)
+                self.send_command("BN", self.area.background, self.pos, self.area.overlay, 1)
 
             if len(self.area.pos_lock) > 0:
                 # set that juicy pos dropdown
@@ -1735,9 +1740,9 @@ class ClientManager:
             self.send_command("HP", 2, self.area.hp_pro)
             if self.area.dark:
                 self.send_command(
-                    "BN", self.area.background_dark, self.area.pos_dark)
+                    "BN", self.area.background_dark, self.area.pos_dark, self.area.overlay, 1)
             else:
-                self.send_command("BN", self.area.background, self.pos)
+                self.send_command("BN", self.area.background, self.pos, self.area.overlay, 1)
             self.send_command("LE", *self.area.get_evidence_list(self))
             self.send_command("MM", 1)
 
@@ -2030,9 +2035,23 @@ class ClientManager:
             """Begin the case announcement cooldown."""
             self.case_call_time = round(time.time() * 1000.0 + 60000)
 
+        def set_need_call_delay(self):
+            """Begin the need cooldown."""
+            try:
+                self.need_call_time = round(
+                    time.time() * 1000.0
+                    + int(self.server.config["need_webhook"]["delay"]) * 1000.0
+                )
+            except:
+                self.need_call_time = round(time.time() * 1000 + 60000)
+
         def can_call_case(self):
             """Whether or not the client can currently announce a case."""
             return (time.time() * 1000.0 - self.case_call_time) > 0
+
+        def can_call_need(self):
+            """Whether or not the client can currently call a need."""
+            return (time.time() * 1000.0 - self.need_call_time) > 0
 
         def disemvowel_message(self, message):
             """Disemvowel a chat message."""

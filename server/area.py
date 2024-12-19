@@ -200,6 +200,10 @@ class Area:
         # Who's debating who
         self.red_team = set()
         self.blue_team = set()
+        # Clients who cast votes
+        self.votes_cast = set()      
+        # What percentage of valid voters needs to vote to force-end the minigame, rounded
+        self.votes_percentage = 0.7
         # Minigame name
         self.minigame = ""
         # Minigame schedule
@@ -281,6 +285,11 @@ class Area:
         self.battle_enraged_bonus = 2.25
         self.battle_stolen_stat = 10
 
+        # multiple pair
+        self.auto_pair = False
+        self.auto_pair_max = "triple"
+        self.auto_pair_cycle = False
+
     @property
     def name(self):
         """Area's name string. Abbreviation is also updated according to this."""
@@ -322,14 +331,8 @@ class Area:
             return
 
         # Sort through all the owners, with GMs coming first and CMs coming second
-        sorted_owners = sorted(
-            self.owners,
-            key=lambda x: 0
-            if (x in self.area_manager.owners)
-            else 1
-            if (x in self._owners)
-            else 2,
-        )
+        sorted_owners = list(self._owners) + list(self.area_manager.owners)
+
         # Pick the owner with highest permission - game master, if one exists.
         # This permission system may be out of wack, but it *should* be good for now
         owner = sorted_owners[0]
@@ -398,6 +401,8 @@ class Area:
         if "background" in area:
             self.background = area["background"]
             self.o_background = self.background
+        if "overlay" in area:
+            self.overlay = area["overlay"]
         if "bg_lock" in area:
             self.bg_lock = area["bg_lock"]
         if "overlay_lock" in area:
@@ -469,7 +474,10 @@ class Area:
             if self.music_ref == "":
                 self.clear_music()
         if self.music_ref != "":
-            self.load_music(f"storage/musiclists/{self.music_ref}.yaml")
+            if os.path.isfile(f"storage/musiclists/read_only/{self.music_ref}.yaml"):
+                self.load_music(f"storage/musiclists/read_only/{self.music_ref}.yaml")
+            else:
+                self.load_music(f"storage/musiclists/{self.music_ref}.yaml")
 
         if "client_music" in area:
             self.client_music = area["client_music"]
@@ -586,10 +594,18 @@ class Area:
         if "can_battle" in area:
             self.can_battle = area["can_battle"]
 
+        if "auto_pair" in area:
+            self.auto_pair = area["auto_pair"]
+        if "auto_pair_max" in area:
+            self.auto_pair_max = area["auto_pair_max"]
+        if "auto_pair_cycle" in area:
+            self.auto_pair_cycle = area["auto_pair_cycle"]
+
     def save(self):
         area = OrderedDict()
         area["area"] = self.name
         area["background"] = self.background
+        area["overlay"] = self.overlay
         area["pos_lock"] = "none"
         if len(self.pos_lock) > 0:
             area["pos_lock"] = " ".join(map(str, self.pos_lock))
@@ -660,6 +676,9 @@ class Area:
         if len(self.links) > 0:
             area["links"] = self.links
         area["can_battle"] = self.can_battle
+        area["auto_pair"] = self.auto_pair
+        area["auto_pair_max"] = self.auto_pair_max
+        area["auto_pair_cycle"] = self.auto_pair_cycle
         return area
 
     def new_client(self, client):
@@ -1660,7 +1679,7 @@ class Area:
             self.hp_pro = val
         self.send_command("HP", side, val)
 
-    def change_background(self, bg, silent=False, overlay="", mode=-1):
+    def change_background(self, bg, overlay="", mode=1):
         """
         Set the background and/or overlay.
         
@@ -1713,24 +1732,10 @@ class Area:
                 if client.pos not in self.pos_lock:
                     client.change_position(self.pos_lock[0])
 
-        if overlay != "":
-            # In case "mode" is unspecified
-            if mode == -1:
-                if silent:
-                    mode = 0
-                else:
-                    mode = 1
-            for client in self.clients:
-                client.send_command("BN", bg, client.pos, overlay, mode)
+        self.overlay = overlay
 
-        # Pre AOG packet fallback
-        # In case overlay wasn't specified
-        elif silent:
-            for client in self.clients:
-                client.send_command("BN", bg)
-        else:
-            for client in self.clients:
-                client.send_command("BN", bg, client.pos)
+        for client in self.clients:
+            client.send_command("BN", bg, client.pos, self.overlay, mode)
 
     def change_status(self, value):
         """
@@ -1930,6 +1935,7 @@ class Area:
         self.invite_list = self.old_invite_list
         self.red_team.clear()
         self.blue_team.clear()
+        self.votes_cast.clear()
         self.send_timer_set_time(2, None)
         self.send_ic(
             msg=f"~~}}}}`{self.minigame} END!`\\n{reason}",
@@ -1965,6 +1971,36 @@ class Area:
                 0,
             )
         self.minigame = ""
+
+    def vote_end_minigame(self, client):
+        if client.area.minigame == "":
+            client.send_ooc("There is no minigame running right now.")
+            return
+
+        valid_voters = [
+            c for c in self.clients if
+                not c.hidden and
+                not c in self.afkers and
+                not c in self.owners and
+                c.char_id not in client.area.blue_team and
+                c.char_id not in client.area.red_team
+        ]
+        if client not in valid_voters:
+            client.send_ooc("You're not qualified to vote-end this minigame! (You're a Spectator, Hidden or the area owner)")
+            return
+        self.votes_cast.add(client)
+        votes_casted = len(self.votes_cast)
+        votes_needed = round(len(valid_voters) * self.votes_percentage)
+
+        info = f'[{client.id}] {client.showname} is voting to end the minigame!'
+
+        if votes_casted >= votes_needed:
+            client.area.end_minigame("Voted to end.")
+            info += f'\nSuccessfully voted to end with ({votes_casted}/{votes_needed}) votes.'
+        else:
+            info += f'({votes_casted}/{votes_needed}) votes left.'
+        
+        self.broadcast_ooc(info)
 
     def start_debate(self, client, target, pta=False):
         if (client.char_id in self.red_team and target.char_id in self.blue_team) or (
@@ -2063,6 +2099,8 @@ class Area:
             self.blue_team.clear()
             self.red_team.add(client.char_id)
             self.blue_team.add(target.char_id)
+            
+            self.votes_cast.clear()
             if pta:
                 self.minigame = "Panic Talk Action"
                 timer = self.panic_talk_action_timer
